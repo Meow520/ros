@@ -10,7 +10,7 @@ from std_msgs.msg import String
 class Talk(Node):
     def __init__(self, script_number:int):
         super().__init__("talk")
-        self.create_subscription(String, "asr_memory", self.asr_callback, 10)
+        self.create_subscription(String, "butukusa", self.asr_callback, 10)
         self.index = 0
         self.scripts = get_script(script_number)
         

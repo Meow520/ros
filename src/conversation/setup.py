@@ -28,7 +28,7 @@ setup(
         "console_scripts": [
             "talk = conversation.talk:main",
             "talk2robot = conversation.talk2robot:main",
-            "asr_listener = conversation.asr_memory:main",
+            "asr_listener = conversation.asr_memory:main"
         ],
     },
 )

@@ -1,22 +1,22 @@
 import rclpy
-import pymongo
-import json
-from .talk_modules.scripts import get_script
 from rclpy.node import Node
+from datetime import datetime
 
-from std_msgs.msg import String
+from common_msgs.msg import StringStamped
 
 
 class Talk2Robot(Node):
     def __init__(self):
         super().__init__("talk2robot")
-        self.publisher_ = self.create_publisher(String, "/butukusa", 10)
+        self.publisher_ = self.create_publisher(StringStamped, "/butukusa", 10)
         self.timer = self.create_timer(0.5, self.timer_callback)
 
     def timer_callback(self):
-        publish_msg = String()
+        publish_msg = StringStamped()
+        publish_msg.header.stamp = datetime.now()
         publish_msg.data = "hello"
         self.publisher_.publish(publish_msg)
+        self.get_logger().info(f"PUBLISHER: {publish_msg.data}")
 
 
 def main(args=None):
