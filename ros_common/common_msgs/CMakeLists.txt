@@ -15,7 +15,7 @@ find_package(sensor_msgs REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 set(msg_files
-  "msgs/StringStamped.msg"
+  "msg/StringStamped.msg"
   )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
