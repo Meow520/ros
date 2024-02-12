@@ -1,6 +1,5 @@
 import rclpy
 from rclpy.node import Node
-from datetime import datetime
 
 from common_msgs.msg import StringStamped
 
@@ -13,10 +12,13 @@ class Talk2Robot(Node):
 
     def timer_callback(self):
         publish_msg = StringStamped()
-        publish_msg.header.stamp = datetime.now()
+        publish_msg.header.stamp = rclpy.time.Time().to_msg()
         publish_msg.data = "hello"
         self.publisher_.publish(publish_msg)
-        self.get_logger().info(f"PUBLISHER: {publish_msg.data}")
+        self.get_logger().info(
+            f"HEADER: {publish_msg.header.stamp}, PUBLISHER: {publish_msg.data}"
+        )
+        exit()
 
 
 def main(args=None):
