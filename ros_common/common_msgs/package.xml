@@ -5,7 +5,7 @@
   <version>0.0.0</version>
   <description>GRP's common ros message definitions</description>
   <maintainer email="cgjg0289@mail4.doshisha.ac.jp">mao-y</maintainer>
-  <license>Apache License 2.0</license>
+  <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
