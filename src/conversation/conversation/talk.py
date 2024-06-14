@@ -17,9 +17,9 @@ class Talk(Node):
 
     def asr_callback(self, msg):
         subscribe_data = json.loads(msg.data)
-        self.get_script()
+        self.speak_script()
 
-    def get_script(self) -> dict:
+    def speak_script(self) -> dict:
         current_script = self.scripts[self.index]
         self.get_logger().info(f"SCRIPT: {current_script}")
         if self.index < len(self.scripts) - 1:
