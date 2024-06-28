@@ -1,0 +1,621 @@
+{
+    "dialogue11":[
+        {
+            "speaker": "robot",
+            "utterance": "Hello! I'm Indy. Nice to meet you!"
+        },
+        {
+            "speaker": "user",
+            "utterance": "Hello! I'm oo. Nice to meet you too!"
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Thank you for coming here today! So, I need your help with something… Can you help me?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "Of course! What can I help you with?"
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Actually, I have to set the table by 10 minutes. So firstly, can you take 4 placemats?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "Yes, but I don't know where they are."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Oops, I forgot to tell you where they are. They are on the top of the kitchen counter."
+        },
+        {
+            "speaker": "user",
+            "utterance": "I got it."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Thank you. Can you place them now?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "Yes."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Good. Next, can you take 4 plates? They are probably on the shelf."
+        },
+        {
+            "speaker": "user",
+            "utterance": "Yes."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Thank you! Where do you think the plates should be placed?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "I think I should place them on the centre of each placemat."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Good idea! Can you place one dinner plate for each person?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "Yes."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Next, I want you to arrange cutleries. We will have roast chicken and salad for dinner, which cutleries do you think we need?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "I think we need 4 forks and 4 knives."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Right! Then, can you take and arrange them?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "Yes."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "So next, can you take 4 glasses on the top of the kitchen counter?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "Yes."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Good. Where do you think the glasses should go?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "I think I should put them on the top-left of each placemat."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Sounds great! Can you put them?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "Yes."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Then, can you take 4 napkins in the drawer?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "Yes."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "I want you to put them on each plate, but before you do that, could you fold them nicely?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "Yes."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "After folding them, can you put them?"
+        },
+        {
+            "speaker": "user",
+            "utterance": "I'm sure."
+        },
+        {
+            "speaker": "robot",
+            "utterance": "Excellent! Thank you for helping me!"
+        },
+        {
+            "speaker": "user",
+            "utterance": "You're welcome!"
+        },
+        {
+            "speaker": "robot",
+            "utterance": "See you soon!"
+        }
+    ],
+    "dialogue12": [
+        { 
+            "speaker": "Learner", 
+            "utterance": "Hello!" 
+        },
+        { 
+            "speaker": "Robot", 
+            "utterance": "Hello!" 
+        },
+        {
+            "speaker": "Learner",
+            "utterance": "I need your help with something… Can you help me?"
+        },
+        { 
+            "speaker": "Robot", 
+            "utterance": "Of course! What can I help you with?" 
+        },
+        {
+            "speaker": "Learner",
+            "utterance": "Firstly, can you take a placemat on the kitchen counter and place them?"
+        },
+        { 
+            "speaker": "Robot", 
+            "utterance": "Yes." 
+        },
+        {
+            "speaker": "Learner",
+            "utterance": "Good. Next, can you take a plate on the shelf?"
+        },
+        { 
+            "speaker": "Robot", 
+            "utterance": "Yes." 
+        },
+        {
+            "speaker": "Learner",
+            "utterance": "Can you place a plate on the centre of the placemat?"
+        },
+        { 
+            "speaker": "Robot", 
+            "utterance": "Yes." },
+        {
+            "speaker": "Learner",
+            "utterance": "Then, can you take and arrange a fork and a knife?"
+        },
+        { 
+            "speaker": "Robot", 
+            "utterance": "Yes." },
+        {
+            "speaker": "Learner",
+            "utterance": "So next, can you take a glass on the kitchen counter?"
+        },
+        { 
+            "speaker": "Robot", 
+            "utterance": "Yes." 
+        },
+        {
+            "speaker": "Learner",
+            "utterance": "Then, can you put them on the placemat?"
+        },
+        { 
+            "speaker": "Robot",
+            "utterance": "I got it."
+        },
+        {
+            "speaker": "Learner",
+            "utterance": "Then, can you take a napkin in the drawer?"
+        },
+        { 
+            "speaker": "Robot", 
+            "utterance": "Yes." 
+        },
+        {
+            "speaker": "Learner",
+            "utterance": "Can you fold and put them on the plate?"
+        },
+        { 
+            "speaker": "Robot",
+            "utterance": "Im sure."
+        },
+        {
+            "speaker": "Learner",
+            "utterance": "Excellent! Thank you for helping me!"
+        },
+        { 
+            "speaker": "Robot", 
+            "utterance": "You're welcome!" 
+        },
+        { 
+            "speaker": "Learner", 
+            "utterance": "See you soon!" 
+        },
+        { 
+            "speaker": "Robot", 
+            "utterance": "See you!" 
+        }
+    ],
+    "dialogue21":[
+        {
+            "speaker": "Robot", 
+            "utterance": "Hi, oo!"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Hi!"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "By the way, don't you think this room is messy?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Yeah, it is pretty messy."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Right? Can you help me tidy up?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Sure, what can I do?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "First, could you wipe up the spilled water on the table and clean it up?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "I got it."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Thanks. Next, could you put the scattered stuffed animals into that box over there?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Yes."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "By the way, do you like Pokémon?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Yes, I do."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Really! I love Pokémon too. My favourite is Ditto."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Ditto is cute. I'm done tidying up."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Thanks. Now, there are empty water bottles in the kitchen. Could you throw them away in the trash?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Sure."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Do you have any favourite drinks?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "I like orange juice."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "That sounds delicious! I only consume electricity, so I can't taste it, though."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "I've thrown them away."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Thanks! Finally, there are pencils and erasers in that drawer over there, but they're all mixed up. Could you sort them out, putting the pencils on the left and the erasers on the right?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Thanks! The room looks much cleaner now!"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "You're welcome!"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "See you later!"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "See you!"
+        }
+    ],
+    "dialogue22": [
+        {
+            "speaker": "Learner", 
+            "utterance": "Hi!"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Hi, oo!"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Can you help me tidy up?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Sure, what can I do?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "First, could you wipe up the spilled water on the table and clean it up?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "I got it."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Thanks. Next, could you put the scattered stuffed animals into that box over there?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Yes."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Thanks. Now, there are empty water bottles in the kitchen. Could you throw them away in the trash?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Sure."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Thanks! Finally, could you sort out the pencils and erasers in the drawer?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "I got it!"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Thanks! The room looks much cleaner now!"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "You’re welcome!"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "See you!"
+        }
+    ],
+    "dialogue31": [
+        {
+            "speaker": "Robot", 
+            "utterance": "Hi, oo!"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Hi!"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "I can't seem to find something. Could you help me look for it?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Yeah, what are you looking for?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "I'm looking for my phone charger. I put it in the bottom drawer, but I can't find it anywhere."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Okay, can you describe the charger in more detail? What does it look like?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "It's white and has a Pokémon sticker on it."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Got it."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Do you often lose things?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "No, not really. I'm usually pretty good at keeping track of my belongings."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "That's good to hear. I tend to misplace things all the time."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Hey, is this it?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Oh my gosh, yes! Thank you so much for finding it! Now, I'm looking for my black ballpoint pen."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "No problem. Do you have any idea where you might have left it?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "I think I used it last at the dining table, so it should be somewhere around there. Could you check for me?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Sure, Let me take a look."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "I'm so sorry, I lose things so easily. I don't know how I manage to misplace them all the time."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "It's okay, everyone does it sometimes. Is this it?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Yes, that's it! Thank you so much!"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "You're welcome."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Actually, there's one more thing. I'm looking for my white and blue vase."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Okay, where do you think you might have left it last?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "I washed it with the dishes and then put it away, so I think it's probably in the kitchen cupboard."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Let me take a look."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Thank you."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "There are two vases, one blue and one white. Which one are you looking for?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "I was looking for the white one! Thank you!"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "You're welcome."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "See you soon!"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "See you!"
+        }
+
+    ],
+    "dialogue32": [
+        {
+            "speaker": "Learner", 
+            "utterance": "Hi!"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Hi, ooi!"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "I can't seem to find something. Could you help me look for it?"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Yeah, what are you looking for?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "I'm looking for my phone charger."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Okay, can you describe the charger in more detail? What does it look like?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "It's white and has a Pokémon sticker on it."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Got it."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Is this it?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Thank you! Now, I'm looking for my black ballpoint pen."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "No problem. Do you have any idea where you might have left it?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "I think I used it last at the dining table, so it should be somewhere around there."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Sure, Let me take a look."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Yes, that's it! Thank you so much!"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "You're welcome."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "I'm looking for my blue vase."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Okay, where do you think you might have left it last?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "I washed it and then put it away, so I think it's probably in the kitchen cupboard."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "Let me take a look. Is this it?"
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "Thank you."
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "You're welcome."
+        },
+        {
+            "speaker": "Learner", 
+            "utterance": "See you soon!"
+        },
+        {
+            "speaker": "Robot", 
+            "utterance": "See you!"
+        }
+    ]
+}

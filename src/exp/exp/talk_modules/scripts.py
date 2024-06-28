@@ -1,21 +1,16 @@
-script1 = [
-    {
-        'talker': 'robot',
-        'script': 'Hello!'
-    },
-    {
-        'talker': 'robot',
-        'script': 'How are you?'
-    }
-]
+import json
 
-scripts = [script1]
+try:
+    with open("./scripts.json") as f:
+        scripts = json.load(f)
+except json.JSONDecodeError as e:
+    print(f"json decode error: {e}")
 
-def get_script(number:int) -> list:
-    if type(number) != int:
+def get_script(number:str) -> list:
+    if type(number) != str:
         return
-    if 0 < number < len(scripts) + 1:
-        return scripts[number - 1]
+    if number in ["11", "12", "21", "22", "31", "32"]:
+        return scripts["dialogue"+number]
     else:
         return
     

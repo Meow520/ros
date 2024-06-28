@@ -1,7 +1,8 @@
 {
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "python.formatting.provider": "none",
-    "ros.distro": "humble"
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none",
+  "ros.distro": "humble",
+  "cmake.sourceDirectory": "/mnt/home/mao-y/workspace/ros_ws/build/common_msgs/common_msgs__py"
 }
