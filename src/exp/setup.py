@@ -1,4 +1,4 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 
 package_name = 'exp'
 submodules = "exp/talk_modules"

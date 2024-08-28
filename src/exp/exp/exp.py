@@ -4,27 +4,29 @@ import rclpy
 import json
 from dotenv import load_dotenv
 from os.path import join, dirname
-from pyindy.mongo import UtteranceManager
+from pyindy.mongo import UtteranceManager, NavigationManager
 from rclpy.node import Node
 from .talk_modules.scripts import get_script
 
-from common_msgs.msg import StringStamped
+from common_msgs.msg import StringStamped # type: ignore
 
 load_dotenv(verbose=True)
 dotenv_path = join(dirname(__file__), ".env")
 load_dotenv(dotenv_path)
 
 class Exp(Node):
-    def __init__(self, script:list, um:any):
+    def __init__(self, script:list, um:any, nm:any):
         super().__init__("exp")
-        self.create_subscription(StringStamped, "/asr/meta_data", self.callback, 10)
+        self.create_subscription(StringStamped, "/asr/meta_data", self.asr_callback, 10)
+        self.create_subscription(StringStamped, "/indy2/recog/object/tracked", self.obj_callbask, 10)
         self.script = script
         self.index = 0
         self.correct = True
         self.um = um
+        self.nm = nm
         self.stop = False
         
-    def callback(self, msg):
+    def asr_callback(self, msg):
         if self.stop:
             exit()
         subscribe_data = json.loads(msg.data)
@@ -35,6 +37,11 @@ class Exp(Node):
         
         # send text data robot speaking
         # self.um.insert({"text":res})
+        # self.nm.insert({"coordinate":{[0, 0, 0]}})
+        
+    def obg_callback(self, msg):
+        subscribe_data = json.loads(msg.data)
+        
         
         
     def dummy_speech(self) -> str:
@@ -88,26 +95,19 @@ class Exp(Node):
     
     # user speech feedback
     def feedback(self, data) -> str:
-        """
-        data usecase
-        
-        num_frame
-        duration
-        asr_model
-        words
-        scores
-        recog_time
-        sep_port
-        """
         openai.api_key = os.environ.get("OPENAI_API_KEY")
         user_speech = data["words"]
-        # predicted_speech = self.scripts[self.index + 1]
+        predicted_speech = self.script[self.index + 1]["utterance"]
+        correct_examples = self.script[self.index + 1]["ex"]["correct"]
+        correct_examples.append(predicted_speech)
+        incorrect_examples = self.script[self.index + 1]["ex"]["incorrect"]
         current_script = self.script[self.index]
         params = [
             {"role":"system", "content":"You are Assistant."},
             {"role":"system", "content":"You must evaluate whether user's speaking is correct or not."},
-            # {"role":"system", "content":f"We have scripts and now we predict that user's speech is going to be {predicted_speech}."},
-            {"role":"system", "content":"If you judjed user spoke English correctly, please output only 'correct', otherwise, please advise to correct the mistake."}
+            {"role":"system", "content":f"Here are some sample answer,  {correct_examples}"},
+            {"role":"system", "content":f"Here are some sample mistakes,  {incorrect_examples}"},
+            {"role":"system", "content":"If you judjed user spoke English correctly, please output only 'correct', otherwise, please advise to correct the mistake in English at around CEFR B1 level."}
             # 直す部分をもう少し細かくする few-shot 正解例と不正解例
         ]
         params.append({"role":"user", "content": f"The robot said {current_script},  and The user said {user_speech}"})
@@ -126,15 +126,15 @@ class Exp(Node):
         
 def main(args=None):
     script_number = input("1文字目はタスク、2文字目はフェーズを半角数字で打ち込む 例) タスク1つ目フェーズ1であれば「11」")
-    script = get_script(script_number)
-    # um = UtteranceManager("http://i1-brain.ad180.riken.go.jp", 9020, "indy2")
-    um = ""
+    script = get_script(number=script_number, file_path="src/exp/exp/talk_modules/scripts.json")
+    um = UtteranceManager("i1-brain.ad180.riken.go.jp", 9020, "indy1")
+    nm = NavigationManager("i1-brain.ad180.riken.go.jp", 9020, "indy1")
     # robot speaks first script before user speaking
-    # um.insert
+    # um.insert({"text": script[0]["utterance"]})
     print(({"text": script[0]["utterance"]}))
     
     rclpy.init(args=args)
-    exp = Exp(script=script, um = um)
+    exp = Exp(script=script, um=um, nm=nm)
     rclpy.spin(exp)
     exp.destroy_node()
     rclpy.shutdown()
