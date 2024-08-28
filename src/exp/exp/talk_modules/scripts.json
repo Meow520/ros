@@ -12,7 +12,7 @@
                 "correct": [
                     "Hello! I'm [name]. Nice to meet you too!",
                     "Hi! My name is [name]. Nice to meet you too!",
-                    "Hello Indy! I'm [name]. Nice to meet you too!"
+                    "Hello Indy! I am [name]. Nice to meet you too!"
                 ],
                 "incorrect": [
                     "Hi! What is your name?",
@@ -66,7 +66,7 @@
         {
             "speaker": "robot",
             "utterance": "Oops, I forgot to tell you where they are. They are on the top of the kitchen counter.",
-            "location": "LookingKitchen"
+            "location": "Kitchen"
         },
         {
             "speaker": "learner",
@@ -87,7 +87,7 @@
         {
             "speaker": "robot",
             "utterance": "Thank you. Can you place them now?",
-            "location": "LookingKitchen"
+            "location": "Kitchen"
         },
         {
             "speaker": "learner",
@@ -213,7 +213,7 @@
         {
             "speaker": "robot",
             "utterance": "So next, can you take 4 glasses on the top of the kitchen counter?",
-            "location": "LookingKitchen"
+            "location": "Kitchen"
         },
         {
             "speaker": "learner",
@@ -234,7 +234,7 @@
         {
             "speaker": "robot",
             "utterance": "Good. Where do you think the glasses should go?",
-            "location": "LookingKitchen"
+            "location": "Kitchen"
         },
         {
             "speaker": "learner",
@@ -255,7 +255,7 @@
         {
             "speaker": "robot",
             "utterance": "Sounds great! Can you put them?",
-            "location": "LookingKitchen"
+            "location": "Kitchen"
         },
         {
             "speaker": "learner",

@@ -2,10 +2,8 @@ import json
 from os.path import join, dirname
 
 file_path = join(dirname(__file__), "scripts.json")
-print(file_path)
 
-
-def get_script(number:str, file_path:str) -> list:
+def get_script(number:str, file_path:str = file_path) -> list:
     try:
         with open(file_path) as f:
             scripts = json.load(f)
