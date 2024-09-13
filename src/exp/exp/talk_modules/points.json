@@ -1,22 +1,21 @@
 {
-  "Home": { "position": [{ "x": 4.689 }, { "y": 23.46 }, { "rad": -1.59 }] },
-  "HomeViaPoint": { "position": [{ "x": 6.486 }, { "y": 23.46 }] },
-  "Kitchen": { "position": [{ "x": 6.987 }, { "y": 22.93 }, { "rad": 0 }] },
-  "Shelf": { "position": [{ "x": 8.758 }, { "y": 19.48 }, { "rad": -1.83 }] },
+  "Home": { "position": [4.689 ,23.46, -1.59 ] },
+  "Kitchen": { "position": [6.987 ,22.93, 0 ] },
+  "Shelf": { "position": [8.758 ,19.48, -1.83 ] },
   "TrushCan": {
-    "position": [{ "x": 8.594 }, { "y": 21.91 }, { "rad": 0.191 }]
+    "position": [8.89 ,21.93, 0.45 ]
   },
-  "Dinig": { "position": [{ "x": 6.904 }, { "y": 20.66 }, { "rad": 0 }] },
+  "Dinig": { "position": [6.904 ,20.66, 0 ] },
   "LookingDinig": {
-    "position": [{ "x": 6.508 }, { "y": 21.87 }, { "rad": -0.45 }]
+    "position": [6.508 ,21.87, -0.45 ]
   },
   "LookingLiving": {
-    "position": [{ "x": 6.654 }, { "y": 23.21 }, { "rad": 3.087 }]
+    "position": [6.654 ,23.21, 3.087 ]
   },
   "LookingTrushCan": {
-    "position": [{ "x": 6.639 }, { "y": 22.08 }, { "rad": 0 }]
+    "position": [6.639 ,22.08, 0 ]
   },
   "LookingTV": {
-    "position": [{ "x": 3.639 }, { "y": 23.61 }, { "rad": 1.204 }]
+    "position": [3.639 ,23.61, 1.204 ]
   }
 }

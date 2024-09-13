@@ -3,7 +3,7 @@
         {
             "speaker": "robot",
             "utterance": "Hello! I'm Indy. Nice to meet you!",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -24,7 +24,7 @@
         {
             "speaker": "robot",
             "utterance": "Thank you for coming here today! So, I need your help with something… Can you help me?",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -45,7 +45,7 @@
         {
             "speaker": "robot",
             "utterance": "Actually, I have to set the table by 10 minutes. So firstly, can you take 4 placemats?",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -87,7 +87,7 @@
         {
             "speaker": "robot",
             "utterance": "Thank you. Can you place them now?",
-            "location": "Kitchen"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -129,7 +129,7 @@
         {
             "speaker": "robot",
             "utterance": "Thank you! Where do you think the plates should be placed?",
-            "location": "Shelf"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -150,7 +150,7 @@
         {
             "speaker": "robot",
             "utterance": "Good idea! Can you place one dinner plate for each person?",
-            "location": "Shelf"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -192,7 +192,7 @@
         {
             "speaker": "robot",
             "utterance": "Right! Then, can you take and arrange them?",
-            "location": "LookingDinig"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -234,7 +234,7 @@
         {
             "speaker": "robot",
             "utterance": "Good. Where do you think the glasses should go?",
-            "location": "Kitchen"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -255,7 +255,7 @@
         {
             "speaker": "robot",
             "utterance": "Sounds great! Can you put them?",
-            "location": "Kitchen"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -297,7 +297,7 @@
         {
             "speaker": "robot",
             "utterance": "I want you to put them on each plate, but before you do that, could you fold them nicely?",
-            "location": "Shelf"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -339,7 +339,7 @@
         {
             "speaker": "robot",
             "utterance": "Excellent! Thank you for helping me!",
-            "location": "LookingDinig"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -360,7 +360,7 @@
         {
             "speaker": "robot",
             "utterance": "See you soon!",
-            "location": "LookingDinig"
+            "location": ""
         }
     ],
     "dialogue12": [
@@ -383,7 +383,7 @@
         {
             "speaker": "Robot",
             "utterance": "Hello!",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -404,7 +404,7 @@
         {
             "speaker": "Robot",
             "utterance": "Of course! What can I help you with?",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -425,7 +425,7 @@
         {
             "speaker": "Robot",
             "utterance": "Yes.",
-            "location": "Home"
+            "location": "Kitchen"
         },
         {
             "speaker": "learner",
@@ -446,7 +446,7 @@
         {
             "speaker": "Robot",
             "utterance": "Yes.",
-            "location": "Home"
+            "location": "Shelf"
         },
         {
             "speaker": "learner",
@@ -467,7 +467,7 @@
         {
             "speaker": "Robot",
             "utterance": "Yes.",
-            "location": "Home"
+            "location": "Dinig"
         },
         {
             "speaker": "learner",
@@ -488,7 +488,7 @@
         {
             "speaker": "Robot",
             "utterance": "Yes.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -509,7 +509,7 @@
         {
             "speaker": "Robot",
             "utterance": "Yes.",
-            "location": "Home"
+            "location": "Kitchen"
         },
         {
             "speaker": "learner",
@@ -530,7 +530,7 @@
         {
             "speaker": "Robot",
             "utterance": "I got it.",
-            "location": "Home"
+            "location": "Dinig"
         },
         {
             "speaker": "learner",
@@ -551,7 +551,7 @@
         {
             "speaker": "Robot",
             "utterance": "Yes.",
-            "location": "Home"
+            "location": "Shelf"
         },
         {
             "speaker": "learner",
@@ -572,7 +572,7 @@
         {
             "speaker": "Robot",
             "utterance": "I'm sure.",
-            "location": "Home"
+            "location": "Dinig"
         },
         {
             "speaker": "learner",
@@ -614,14 +614,14 @@
         {
             "speaker": "Robot",
             "utterance": "See you!",
-            "location": "Home"
+            "location": ""
         }
     ],
     "dialogue21":[
         {
             "speaker": "Robot",
             "utterance": "Hi, oo!",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -684,7 +684,7 @@
         {
             "speaker": "Robot",
             "utterance": "First, could you wipe up the spilled water on the table and clean it up?",
-            "location": "Home"
+            "location": "LookingDinig"
         },
         {
             "speaker": "learner",
@@ -705,7 +705,7 @@
         {
             "speaker": "Robot",
             "utterance": "Thanks. Next, could you put the scattered stuffed animals into that box over there?",
-            "location": "Home"
+            "location": "LookingLiving"
         },
         {
             "speaker": "learner",
@@ -726,7 +726,7 @@
         {
             "speaker": "Robot",
             "utterance": "By the way, do you like Pokémon?",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -747,7 +747,7 @@
         {
             "speaker": "Robot",
             "utterance": "Really! I love Pokémon too. My favourite is Ditto.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -768,7 +768,7 @@
         {
             "speaker": "Robot",
             "utterance": "Thanks. Now, there are empty water bottles in the kitchen. Could you throw them away in the trash?",
-            "location": "Home"
+            "location": "LookingTrushCan"
         },
         {
             "speaker": "learner",
@@ -789,7 +789,7 @@
         {
             "speaker": "Robot",
             "utterance": "Do you have any favourite drinks?",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -810,7 +810,7 @@
         {
             "speaker": "Robot",
             "utterance": "That sounds delicious! I only consume electricity, so I can't taste it, though.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -831,37 +831,37 @@
         {
             "speaker": "Robot",
             "utterance": "Thanks! Finally, there are pencils and erasers in that drawer over there, but they're all mixed up. Could you sort them out, putting the pencils on the left and the erasers on the right?",
-            "location": "Home"
+            "location": "Shelf"
         },
         {
             "speaker": "learner",
-            "utterance": "Thanks! The room looks much cleaner now!",
+            "utterance": "Sure.",
             "ex": {
                 "correct": [
-                    "You're welcome! The room looks great now!",
-                    "No problem! The room is much cleaner.",
-                    "Glad to help! The room looks tidy now."
+                    "Yes, I'll do that.",
+                    "Of course, I'll throw them away.",
+                    "Okay, I'll take care of it."
                 ],
                 "incorrect": [
-                    "I didn't do much.",
-                    "It's still messy.",
-                    "Why did I have to clean it?"
+                    "No, I can't.",
+                    "Why should I?",
+                    "I don't want to."
                 ]
             }
         },
         {
             "speaker": "Robot",
-            "utterance": "You're welcome!",
-            "location": "Home"
+            "utterance": "Thanks! The room looks much cleaner now!",
+            "location": ""
         },
         {
             "speaker": "learner",
-            "utterance": "See you later!",
+            "utterance": "It' my pleasure, no at all! See you later!",
             "ex": {
                 "correct": [
-                    "Goodbye!",
-                    "Talk to you later!",
-                    "See you next time!"
+                    "You're welcome. Of cource. Goodbye!",
+                    "Anytime! Talk to you later!",
+                    "No problem! See you next time!"
                 ],
                 "incorrect": [
                     "You're welcome.",
@@ -873,7 +873,7 @@
         {
             "speaker": "Robot",
             "utterance": "See you!",
-            "location": "Home"
+            "location": ""
         }
     ],
     "dialogue22": [
@@ -896,7 +896,7 @@
         {
             "speaker": "Robot",
             "utterance": "Hi, oo!",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -938,7 +938,7 @@
         {
             "speaker": "Robot",
             "utterance": "I got it.",
-            "location": "Home"
+            "location": "Dinig"
         },
         {
             "speaker": "learner",
@@ -980,7 +980,7 @@
         {
             "speaker": "Robot",
             "utterance": "Sure.",
-            "location": "Home"
+            "location": "TrushCan"
         },
         {
             "speaker": "learner",
@@ -1001,7 +1001,7 @@
         {
             "speaker": "Robot",
             "utterance": "I got it!",
-            "location": "Home"
+            "location": "Shelf"
         },
         {
             "speaker": "learner",
@@ -1021,7 +1021,7 @@
         },
         {
             "speaker": "Robot",
-            "utterance": "You’re welcome!",
+            "utterance": "You're welcome!",
             "location": "Home"
         },
         {
@@ -1046,7 +1046,7 @@
         {
             "speaker": "Robot",
             "utterance": "Hi, oo!",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1088,7 +1088,7 @@
         {
             "speaker": "Robot",
             "utterance": "I'm looking for my phone charger. I put it in the bottom drawer, but I can't find it anywhere.",
-            "location": "Home"
+            "location": "LookingTV"
         },
         {
             "speaker": "learner",
@@ -1109,7 +1109,7 @@
         {
             "speaker": "Robot",
             "utterance": "It's white and has a Pokémon sticker on it.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1130,7 +1130,7 @@
         {
             "speaker": "Robot",
             "utterance": "Do you often lose things?",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1151,7 +1151,7 @@
         {
             "speaker": "Robot",
             "utterance": "That's good to hear. I tend to misplace things all the time.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1172,7 +1172,7 @@
         {
             "speaker": "Robot",
             "utterance": "Oh my gosh, yes! Thank you so much for finding it! Now, I'm looking for my black ballpoint pen.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1193,7 +1193,7 @@
         {
             "speaker": "Robot",
             "utterance": "I think I used it last at the dining table, so it should be somewhere around there. Could you check for me?",
-            "location": "Home"
+            "location": "LookingDinig"
         },
         {
             "speaker": "learner",
@@ -1214,7 +1214,7 @@
         {
             "speaker": "Robot",
             "utterance": "I'm so sorry, I lose things so easily. I don't know how I manage to misplace them all the time.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1235,7 +1235,7 @@
         {
             "speaker": "Robot",
             "utterance": "Yes, that's it! Thank you so much!",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1256,7 +1256,7 @@
         {
             "speaker": "Robot",
             "utterance": "Actually, there's one more thing. I'm looking for my white and blue vase.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1277,7 +1277,7 @@
         {
             "speaker": "Robot",
             "utterance": "I washed it with the dishes and then put it away, so I think it's probably in the kitchen cupboard.",
-            "location": "Home"
+            "location": "Kitchen"
         },
         {
             "speaker": "learner",
@@ -1298,7 +1298,7 @@
         {
             "speaker": "Robot",
             "utterance": "Thank you.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1319,7 +1319,7 @@
         {
             "speaker": "Robot",
             "utterance": "I was looking for the white one! Thank you!",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1340,7 +1340,7 @@
         {
             "speaker": "Robot",
             "utterance": "See you soon!",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1379,7 +1379,7 @@
         {
             "speaker": "Robot",
             "utterance": "Hi, ooi!",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1400,7 +1400,7 @@
         {
             "speaker": "Robot",
             "utterance": "Yeah, what are you looking for?",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1421,7 +1421,7 @@
         {
             "speaker": "Robot",
             "utterance": "Okay, can you describe the charger in more detail? What does it look like?",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1442,12 +1442,12 @@
         {
             "speaker": "Robot",
             "utterance": "Got it.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "Robot",
             "utterance": "Is this it?",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1468,7 +1468,7 @@
         {
             "speaker": "Robot",
             "utterance": "No problem. Do you have any idea where you might have left it?",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1489,7 +1489,7 @@
         {
             "speaker": "Robot",
             "utterance": "Sure, let me take a look.",
-            "location": "Home"
+            "location": "Dinig"
         },
         {
             "speaker": "learner",
@@ -1510,7 +1510,7 @@
         {
             "speaker": "Robot",
             "utterance": "You're welcome.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1552,7 +1552,7 @@
         {
             "speaker": "Robot",
             "utterance": "Let me take a look. Is this it?",
-            "location": "Home"
+            "location": "Kitchen"
         },
         {
             "speaker": "learner",
@@ -1573,7 +1573,7 @@
         {
             "speaker": "Robot",
             "utterance": "You're welcome.",
-            "location": "Home"
+            "location": ""
         },
         {
             "speaker": "learner",
@@ -1594,7 +1594,7 @@
         {
             "speaker": "Robot",
             "utterance": "See you!",
-            "location": "Home"
+            "location": ""
         }
     ]    
 }

@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "exp = exp.exp:main"
+            "exp = exp.exp:main",
+            "asr_dummy = exp.asr_dummy:main"
         ],
     },
 )

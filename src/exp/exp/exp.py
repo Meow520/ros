@@ -21,7 +21,8 @@ load_dotenv(dotenv_path)
 class Exp(Node):
     def __init__(self, script: list, um: any, nm: any, ges: any):
         super().__init__("exp")
-        self.create_subscription(StringStamped, "/asr/meta_data", self.asr_callback, 10)
+        # self.create_subscription(StringStamped, "/asr/meta_data", self.asr_callback, 10)
+        self.create_subscription(StringStamped, "asr_dummy", self.asr_dummy_callback, 10)
         self.script = script
         self.um = um
         self.nm = nm
@@ -30,7 +31,6 @@ class Exp(Node):
         self.index: int = 0
         self.correct: bool = True
         self.stop: bool = False
-        self.prev_position: str = ""
 
     def asr_callback(self, msg):
         if self.stop:
@@ -39,19 +39,32 @@ class Exp(Node):
         self.get_logger().info(f"USER SPEECH:{subscribe_data}")
         # res_script, res_position = self.speech(subscribe_data)
         res_script, res_position = self.dummy_speech()
-        res_coordinate = get_point(name=res_position, points=self.points, prev_point=self.prev_position)
+        res_coordinate = get_point(name=res_position, points=self.points)
         self.get_logger().info(f"SCRIPT:{res_script}, POSITION:{res_coordinate}")
 
         # send text data (robot speaking)
-        # self.um.insert({"text":res})
+        self.um.insert({"text":res_script})
         
         # send position data (robot moving)
-        # if res_coordinate != "":                                                            
-        #     if len(res_coordinate) == 2:
-        #         # "Home" has the via point except the previous point is "Kitchen".
-        #         self.nm.insert({"coordinate":res_coordinate[-1]})
-        #     self.nm.insert({"coordinate":res_coordinate})
+        if res_coordinate:
+            self.nm.insert({"navigation":res_coordinate})
 
+    def asr_dummy_callback(self, msg):
+        if self.stop:
+            exit()
+        subscribe_data = json.loads(msg.data)
+        self.get_logger().info(f"USER SPEECH:{subscribe_data}")
+        # res_script, res_position = self.speech(subscribe_data)
+        res_script, res_position = self.dummy_speech()
+        res_coordinate = get_point(name=res_position, points=self.points)
+        self.get_logger().info(f"SCRIPT:{res_script}, POSITION:{res_coordinate}")
+
+        # send text data (robot speaking)
+        self.um.insert({"text":res_script})
+        # send position data (robot moving)
+        if res_coordinate != "":                                                            
+            self.nm.insert({"navigation":res_coordinate})
+        
     def dummy_speech(self) -> Tuple[str, str]:
         # put the command of repeat or skip
         cmd = input("Input your command (1: repeat, 2:skip, enter:none):")
@@ -70,6 +83,7 @@ class Exp(Node):
 
         if self.index > len(self.script):
             self.stop = True
+            exit()
         
         script = self.script[self.index]["utterance"]
         position = self.script[self.index]["location"]
@@ -163,7 +177,7 @@ def main(args=None):
     nm = NavigationManager("i1-brain.ad180.riken.go.jp", 9010, "indy1")
     ges = GestureManager("i1-brain.ad180.riken.go.jp", 9010, "indy1")
     # robot speaks first script before user speaking
-    # um.insert({"text": script[0]["utterance"]})
+    um.insert({"text": script[0]["utterance"]})
     print(({"text": script[0]["utterance"]}))
 
     rclpy.init(args=args)
