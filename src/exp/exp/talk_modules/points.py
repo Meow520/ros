@@ -26,7 +26,7 @@ def get_point(name:str, points:dict, rad:float = None) -> list:
     
     if name in ["Home", "Kitchen", "Shelf", "TrushCan", "Dinig", "LookingDinig", "LookingLiving", "LookingTrushCan", "LookingTV"]:
         if rad is not None:
-            points[name]["position"][0]["rad"] = rad
+            points[name]["position"][2] = rad
         return points[name]["position"]
     else:
         return

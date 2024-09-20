@@ -1,1600 +1,1569 @@
 {
-    "dialogue11":[
-        {
-            "speaker": "robot",
-            "utterance": "Hello! I'm Indy. Nice to meet you!",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Hello! I'm oo. Nice to meet you too!",
-            "ex": {
-                "correct": [
-                    "Hello! I'm [name]. Nice to meet you too!",
-                    "Hi! My name is [name]. Nice to meet you too!",
-                    "Hello Indy! I am [name]. Nice to meet you too!"
-                ],
-                "incorrect": [
-                    "Hi! What is your name?",
-                    "Hello! I'm [name]. Goodbye!",
-                    "Nice to meet you."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Thank you for coming here today! So, I need your help with something… Can you help me?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Of course! What can I help you with?",
-            "ex": {
-                "correct": [
-                    "Sure! What do you need help with?",
-                    "Yes, I can help. What do you need?",
-                    "Of course! How can I assist?"
-                ],
-                "incorrect": [
-                    "No, I can't help you.",
-                    "I don't know.",
-                    "Maybe, what do you want?"
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Actually, I have to set the table by 10 minutes. So firstly, can you take 4 placemats?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes, but I don't know where they are.",
-            "ex": {
-                "correct": [
-                    "Sure, but where are they?",
-                    "Yes, but can you tell me where to find them?",
-                    "Of course, but I don't know where they are located."
-                ],
-                "incorrect": [
-                    "No, I can't do that.",
-                    "I don't want to.",
-                    "Where is the table?"
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Oops, I forgot to tell you where they are. They are on the top of the kitchen counter.",
-            "location": "Kitchen"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I got it.",
-            "ex": {
-                "correct": [
-                    "Got it, thanks!",
-                    "Okay, I'll get them.",
-                    "Understood, I'll take them."
-                ],
-                "incorrect": [
-                    "What?",
-                    "I don't understand.",
-                    "No."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Thank you. Can you place them now?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes.",
-            "ex": {
-                "correct": [
-                    "Sure.",
-                    "Yes, I can.",
-                    "Of course."
-                ],
-                "incorrect": [
-                    "No.",
-                    "I don't want to.",
-                    "Maybe later."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Good. Next, can you take 4 plates? They are probably on the shelf.",
-            "location": "Shelf"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes.",
-            "ex": {
-                "correct": [
-                    "Okay, I'll get them.",
-                    "Yes, I will.",
-                    "Sure, I'll take them."
-                ],
-                "incorrect": [
-                    "No.",
-                    "I can't do that.",
-                    "Where are the plates?"
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Thank you! Where do you think the plates should be placed?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I think I should place them on the centre of each placemat.",
-            "ex": {
-                "correct": [
-                    "I think they should go in the center of each placemat.",
-                    "They should be placed in the middle of each placemat.",
-                    "In the center of each placemat."
-                ],
-                "incorrect": [
-                    "I don't know.",
-                    "Anywhere is fine.",
-                    "Wherever you want."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Good idea! Can you place one dinner plate for each person?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes.",
-            "ex": {
-                "correct": [
-                    "Sure.",
-                    "Yes, I can.",
-                    "Of course."
-                ],
-                "incorrect": [
-                    "No.",
-                    "I don't want to.",
-                    "Maybe later."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Next, I want you to arrange cutleries. We will have roast chicken and salad for dinner, which cutleries do you think we need?",
-            "location": "LookingDinig"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I think we need 4 forks and 4 knives.",
-            "ex": {
-                "correct": [
-                    "We need 4 forks and 4 knives.",
-                    "I believe we need 4 forks and 4 knives.",
-                    "4 forks and 4 knives should be enough."
-                ],
-                "incorrect": [
-                    "I don't know.",
-                    "We don't need any cutleries.",
-                    "Anything is fine."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Right! Then, can you take and arrange them?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes.",
-            "ex": {
-                "correct": [
-                    "Sure.",
-                    "Yes, I can.",
-                    "Of course."
-                ],
-                "incorrect": [
-                    "No.",
-                    "I don't want to.",
-                    "Maybe later."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "So next, can you take 4 glasses on the top of the kitchen counter?",
-            "location": "Kitchen"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes.",
-            "ex": {
-                "correct": [
-                    "Sure.",
-                    "Yes, I can.",
-                    "Of course."
-                ],
-                "incorrect": [
-                    "No.",
-                    "I don't want to.",
-                    "Maybe later."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Good. Where do you think the glasses should go?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I think I should put them on the top-left of each placemat.",
-            "ex": {
-                "correct": [
-                    "They should go on the top-left of each placemat.",
-                    "I believe they should be placed on the top-left corner of each placemat.",
-                    "On the top-left of each placemat."
-                ],
-                "incorrect": [
-                    "I don't know.",
-                    "Anywhere is fine.",
-                    "Wherever you want."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Sounds great! Can you put them?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes.",
-            "ex": {
-                "correct": [
-                    "Sure.",
-                    "Yes, I can.",
-                    "Of course."
-                ],
-                "incorrect": [
-                    "No.",
-                    "I don't want to.",
-                    "Maybe later."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Then, can you take 4 napkins in the shelf?",
-            "location": "Shelf"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes.",
-            "ex": {
-                "correct": [
-                    "Sure.",
-                    "Yes, I can.",
-                    "Of course."
-                ],
-                "incorrect": [
-                    "No.",
-                    "I don't want to.",
-                    "Maybe later."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "I want you to put them on each plate, but before you do that, could you fold them nicely?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes.",
-            "ex": {
-                "correct": [
-                    "Sure.",
-                    "Yes, I can.",
-                    "Of course."
-                ],
-                "incorrect": [
-                    "No.",
-                    "I don't want to.",
-                    "Maybe later."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "After folding them, can you put them?",
-            "location": "LookingDinig"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I'm sure.",
-            "ex": {
-                "correct": [
-                    "Sure.",
-                    "Yes, I can.",
-                    "Of course."
-                ],
-                "incorrect": [
-                    "No.",
-                    "I don't want to.",
-                    "Maybe later."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "Excellent! Thank you for helping me!",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "You're welcome!",
-            "ex": {
-                "correct": [
-                    "No problem!",
-                    "Anytime!",
-                    "My pleasure!"
-                ],
-                "incorrect": [
-                    "Goodbye.",
-                    "See you later.",
-                    "Whatever."
-                ]
-            }
-        },
-        {
-            "speaker": "robot",
-            "utterance": "See you soon!",
-            "location": ""
-        }
-    ],
-    "dialogue12": [
-        {
-            "speaker": "learner",
-            "utterance": "Hello!",
-            "ex": {
-                "correct": [
-                    "Hi there!",
-                    "Hey!",
-                    "Good morning!"
-                ],
-                "incorrect": [
-                    "What's up?",
-                    "Who are you?",
-                    "Why are you here?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Hello!",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I need your help with something… Can you help me?",
-            "ex": {
-                "correct": [
-                    "Can you assist me with something?",
-                    "I need help with a task. Can you help?",
-                    "Could you help me with something?"
-                ],
-                "incorrect": [
-                    "I don't need help.",
-                    "Can you do something for me?",
-                    "I need you to do everything."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Of course! What can I help you with?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Firstly, can you take a placemat on the kitchen counter and place them?",
-            "ex": {
-                "correct": [
-                    "First, can you grab a placemat from the kitchen counter and place it?",
-                    "Can you take a placemat from the kitchen counter and put it down?",
-                    "Please take a placemat from the counter and place it."
-                ],
-                "incorrect": [
-                    "Can you take the placemats from the table?",
-                    "Get the placemat and do something with it.",
-                    "Where are the placemats?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Yes.",
-            "location": "Kitchen"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Good. Next, can you take a plate on the shelf?",
-            "ex": {
-                "correct": [
-                    "Next, please take a plate from the shelf.",
-                    "Can you grab a plate from the shelf?",
-                    "Take a plate from the shelf, please."
-                ],
-                "incorrect": [
-                    "Take a plate from anywhere.",
-                    "Can you get a bowl from the shelf?",
-                    "Where are the plates?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Yes.",
-            "location": "Shelf"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Can you place a plate on the centre of the placemat?",
-            "ex": {
-                "correct": [
-                    "Can you put the plate in the center of the placemat?",
-                    "Please place the plate in the middle of the placemat.",
-                    "Put the plate on the center of the placemat."
-                ],
-                "incorrect": [
-                    "Put the plate anywhere.",
-                    "Can you place the plate under the placemat?",
-                    "Do you know where to put the plate?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Yes.",
-            "location": "Dinig"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Then, can you take and arrange a fork and a knife?",
-            "ex": {
-                "correct": [
-                    "Can you take a fork and a knife and arrange them?",
-                    "Please get a fork and a knife and set them.",
-                    "Take a fork and a knife and put them in place."
-                ],
-                "incorrect": [
-                    "Can you get a spoon?",
-                    "Take a knife and a fork and do something with them.",
-                    "Can you arrange some utensils?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Yes.",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "So next, can you take a glass on the kitchen counter?",
-            "ex": {
-                "correct": [
-                    "Next, please take a glass from the kitchen counter.",
-                    "Can you grab a glass from the counter?",
-                    "Take a glass from the kitchen counter, please."
-                ],
-                "incorrect": [
-                    "Can you take a cup?",
-                    "Get a glass from somewhere.",
-                    "Where are the glasses?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Yes.",
-            "location": "Kitchen"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Then, can you put them on the placemat?",
-            "ex": {
-                "correct": [
-                    "Please put the glass on the placemat.",
-                    "Can you place the glass on the placemat?",
-                    "Put the glass on the placemat, please."
-                ],
-                "incorrect": [
-                    "Put the glass anywhere.",
-                    "Can you put the glass on the floor?",
-                    "Do you know where to put the glass?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "I got it.",
-            "location": "Dinig"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Then, can you take a napkin in the drawer?",
-            "ex": {
-                "correct": [
-                    "Can you get a napkin from the drawer?",
-                    "Please take a napkin out of the drawer.",
-                    "Get a napkin from the drawer, please."
-                ],
-                "incorrect": [
-                    "Can you take a towel?",
-                    "Take a napkin from somewhere.",
-                    "Where are the napkins?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Yes.",
-            "location": "Shelf"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Can you fold and put them on the plate?",
-            "ex": {
-                "correct": [
-                    "Can you fold the napkin and put it on the plate?",
-                    "Please fold the napkin and place it on the plate.",
-                    "Fold the napkin and put it on the plate."
-                ],
-                "incorrect": [
-                    "Can you put the napkin anywhere?",
-                    "Fold the napkin and do something with it.",
-                    "Do you know how to fold a napkin?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "I'm sure.",
-            "location": "Dinig"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Excellent! Thank you for helping me!",
-            "ex": {
-                "correct": [
-                    "Thanks a lot for your help!",
-                    "I appreciate your assistance!",
-                    "Thank you very much for helping!"
-                ],
-                "incorrect": [
-                    "Goodbye.",
-                    "See you later.",
-                    "Whatever."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "You're welcome!",
-            "location": "Home"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "See you soon!",
-            "ex": {
-                "correct": [
-                    "Goodbye!",
-                    "Talk to you later!",
-                    "See you next time!"
-                ],
-                "incorrect": [
-                    "You're welcome.",
-                    "I will help you again.",
-                    "What do you need next?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "See you!",
-            "location": ""
-        }
-    ],
-    "dialogue21":[
-        {
-            "speaker": "Robot",
-            "utterance": "Hi, oo!",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Hi!",
-            "ex": {
-                "correct": [
-                    "Hello!",
-                    "Hey!",
-                    "Good to see you!"
-                ],
-                "incorrect": [
-                    "What's up?",
-                    "Who are you?",
-                    "Why are you here?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "By the way, don't you think this room is messy?",
-            "location": "Home"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yeah, it is pretty messy.",
-            "ex": {
-                "correct": [
-                    "Yes, it is.",
-                    "Absolutely, it's quite messy.",
-                    "Indeed, it's very messy."
-                ],
-                "incorrect": [
-                    "No, it's clean.",
-                    "I don't see any mess.",
-                    "Why do you care?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Right? Can you help me tidy up?",
-            "location": "Home"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Sure, what can I do?",
-            "ex": {
-                "correct": [
-                    "Of course, what should I do?",
-                    "Sure, how can I help?",
-                    "Yes, what needs to be done?"
-                ],
-                "incorrect": [
-                    "No, I'm busy.",
-                    "I don't want to help.",
-                    "Why should I?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "First, could you wipe up the spilled water on the table and clean it up?",
-            "location": "LookingDinig"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I got it.",
-            "ex": {
-                "correct": [
-                    "Sure, I'll do that.",
-                    "Okay, I'll clean it up.",
-                    "Yes, I'll take care of it."
-                ],
-                "incorrect": [
-                    "No, I can't.",
-                    "Why should I?",
-                    "I don't want to."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Thanks. Next, could you put the scattered stuffed animals into that box over there?",
-            "location": "LookingLiving"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes.",
-            "ex": {
-                "correct": [
-                    "Sure, I'll do that.",
-                    "Okay, I'll pick them up.",
-                    "Yes, I'll put them in the box."
-                ],
-                "incorrect": [
-                    "No, I can't.",
-                    "Why should I?",
-                    "I don't want to."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "By the way, do you like Pokémon?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes, I do.",
-            "ex": {
-                "correct": [
-                    "Absolutely, I love Pokémon!",
-                    "Yes, I enjoy Pokémon.",
-                    "Of course, I like Pokémon."
-                ],
-                "incorrect": [
-                    "No, I don't.",
-                    "I hate Pokémon.",
-                    "Why are you asking?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Really! I love Pokémon too. My favourite is Ditto.",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Ditto is cute. I'm done tidying up.",
-            "ex": {
-                "correct": [
-                    "Ditto is adorable. I've finished tidying up.",
-                    "Ditto is great. I've completed the cleaning.",
-                    "Ditto is nice. I'm done with the tidying."
-                ],
-                "incorrect": [
-                    "I don't like Ditto.",
-                    "Why do you like Ditto?",
-                    "What's a Ditto?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Thanks. Now, there are empty water bottles in the kitchen. Could you throw them away in the trash?",
-            "location": "LookingTrushCan"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Sure.",
-            "ex": {
-                "correct": [
-                    "Yes, I'll do that.",
-                    "Of course, I'll throw them away.",
-                    "Okay, I'll take care of it."
-                ],
-                "incorrect": [
-                    "No, I can't.",
-                    "Why should I?",
-                    "I don't want to."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Do you have any favourite drinks?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I like orange juice.",
-            "ex": {
-                "correct": [
-                    "Yes, I love orange juice.",
-                    "My favourite is orange juice.",
-                    "I enjoy orange juice."
-                ],
-                "incorrect": [
-                    "No, I don't have any.",
-                    "Why do you care?",
-                    "I don't like any drinks."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "That sounds delicious! I only consume electricity, so I can't taste it, though.",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I've thrown them away.",
-            "ex": {
-                "correct": [
-                    "The bottles are in the trash.",
-                    "I've disposed of the bottles.",
-                    "The bottles are thrown away."
-                ],
-                "incorrect": [
-                    "I haven't done it yet.",
-                    "Why should I throw them away?",
-                    "I don't want to."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Thanks! Finally, there are pencils and erasers in that drawer over there, but they're all mixed up. Could you sort them out, putting the pencils on the left and the erasers on the right?",
-            "location": "Shelf"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Sure.",
-            "ex": {
-                "correct": [
-                    "Yes, I'll do that.",
-                    "Of course, I'll throw them away.",
-                    "Okay, I'll take care of it."
-                ],
-                "incorrect": [
-                    "No, I can't.",
-                    "Why should I?",
-                    "I don't want to."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Thanks! The room looks much cleaner now!",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "It' my pleasure, no at all! See you later!",
-            "ex": {
-                "correct": [
-                    "You're welcome. Of cource. Goodbye!",
-                    "Anytime! Talk to you later!",
-                    "No problem! See you next time!"
-                ],
-                "incorrect": [
-                    "You're welcome.",
-                    "I will help you again.",
-                    "What do you need next?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "See you!",
-            "location": ""
-        }
-    ],
-    "dialogue22": [
-        {
-            "speaker": "learner",
-            "utterance": "Hi!",
-            "ex": {
-                "correct": [
-                    "Hello!",
-                    "Hey!",
-                    "Good to see you!"
-                ],
-                "incorrect": [
-                    "What's up?",
-                    "Who are you?",
-                    "Why are you here?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Hi, oo!",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Can you help me tidy up?",
-            "ex": {
-                "correct": [
-                    "Could you help me clean up?",
-                    "Can you assist me in tidying?",
-                    "Would you help me organize?"
-                ],
-                "incorrect": [
-                    "I don't need your help.",
-                    "Why should I tidy up?",
-                    "I don't want to clean."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Sure, what can I do?",
-            "location": "Home"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "First, could you wipe up the spilled water on the table and clean it up?",
-            "ex": {
-                "correct": [
-                    "Could you clean up the water spill on the table?",
-                    "Can you wipe up the water on the table?",
-                    "Please clean up the spilled water on the table."
-                ],
-                "incorrect": [
-                    "I don't want to clean it.",
-                    "Why should I clean it?",
-                    "I'm not cleaning the water."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "I got it.",
-            "location": "Dinig"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Thanks. Next, could you put the scattered stuffed animals into that box over there?",
-            "ex": {
-                "correct": [
-                    "Can you place the stuffed animals in the box?",
-                    "Please put the stuffed animals in the box.",
-                    "Could you gather the stuffed animals and put them in the box?"
-                ],
-                "incorrect": [
-                    "I don't care about the stuffed animals.",
-                    "Why should I pick them up?",
-                    "I'm not putting them in the box."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Yes.",
-            "location": "Home"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Thanks. Now, there are empty water bottles in the kitchen. Could you throw them away in the trash?",
-            "ex": {
-                "correct": [
-                    "Can you throw away the empty water bottles in the kitchen?",
-                    "Please dispose of the empty water bottles in the kitchen.",
-                    "Could you take the empty water bottles to the trash?"
-                ],
-                "incorrect": [
-                    "I don't want to throw them away.",
-                    "Why should I dispose of them?",
-                    "I'm not dealing with the bottles."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Sure.",
-            "location": "TrushCan"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Thanks! Finally, could you sort out the pencils and erasers in the drawer?",
-            "ex": {
-                "correct": [
-                    "Could you organize the pencils and erasers in the drawer?",
-                    "Can you separate the pencils and erasers in the drawer?",
-                    "Please sort the pencils and erasers in the drawer."
-                ],
-                "incorrect": [
-                    "I don't want to sort them.",
-                    "Why should I organize them?",
-                    "I'm not sorting the drawer."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "I got it!",
-            "location": "Shelf"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Thanks! The room looks much cleaner now!",
-            "ex": {
-                "correct": [
-                    "You're welcome! The room looks great now!",
-                    "No problem! The room is much cleaner.",
-                    "Glad to help! The room looks tidy now."
-                ],
-                "incorrect": [
-                    "I didn't do much.",
-                    "It's still messy.",
-                    "Why did I have to clean it?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "You're welcome!",
-            "location": "Home"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "See you!",
-            "ex": {
-                "correct": [
-                    "Goodbye!",
-                    "Talk to you later!",
-                    "See you next time!"
-                ],
-                "incorrect": [
-                    "You're welcome.",
-                    "I will help you again.",
-                    "What do you need next?"
-                ]
-            }
-        }
-    ]
-    ,
-    "dialogue31": [
-        {
-            "speaker": "Robot",
-            "utterance": "Hi, oo!",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Hi!",
-            "ex": {
-                "correct": [
-                    "Hello!",
-                    "Hey!",
-                    "Good to see you!"
-                ],
-                "incorrect": [
-                    "What's up?",
-                    "Who are you?",
-                    "Why are you here?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "I can't seem to find something. Could you help me look for it?",
-            "location": "Home"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yeah, what are you looking for?",
-            "ex": {
-                "correct": [
-                    "Sure, what are you looking for?",
-                    "Of course, what do you need help finding?",
-                    "No problem, what did you lose?"
-                ],
-                "incorrect": [
-                    "I don't want to help.",
-                    "Why should I help you?",
-                    "I'm too busy to help."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "I'm looking for my phone charger. I put it in the bottom drawer, but I can't find it anywhere.",
-            "location": "LookingTV"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Okay, can you describe the charger in more detail? What does it look like?",
-            "ex": {
-                "correct": [
-                    "Can you give me more details about the charger?",
-                    "What does the charger look like?",
-                    "Can you describe the charger?"
-                ],
-                "incorrect": [
-                    "I don't care about the charger.",
-                    "Why should I find it?",
-                    "I'm not interested in helping."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "It's white and has a Pokémon sticker on it.",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Got it.",
-            "ex": {
-                "correct": [
-                    "Understood.",
-                    "Okay, I'll look for it.",
-                    "I'll start looking."
-                ],
-                "incorrect": [
-                    "I don't care.",
-                    "Why should I bother?",
-                    "I'm not interested."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Do you often lose things?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "No, not really. I'm usually pretty good at keeping track of my belongings.",
-            "ex": {
-                "correct": [
-                    "No, I usually keep track of my stuff.",
-                    "Not often, I usually know where my things are.",
-                    "No, I'm quite organized."
-                ],
-                "incorrect": [
-                    "Yes, I lose things all the time.",
-                    "I'm terrible at keeping track of my stuff.",
-                    "I always lose things."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "That's good to hear. I tend to misplace things all the time.",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Hey, is this it?",
-            "ex": {
-                "correct": [
-                    "Is this the charger?",
-                    "Did I find it?",
-                    "Is this what you were looking for?"
-                ],
-                "incorrect": [
-                    "I can't find it.",
-                    "This isn't it.",
-                    "Why should I care?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Oh my gosh, yes! Thank you so much for finding it! Now, I'm looking for my black ballpoint pen.",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "No problem. Do you have any idea where you might have left it?",
-            "ex": {
-                "correct": [
-                    "Do you remember where you used it last?",
-                    "Any idea where it could be?",
-                    "Do you know where you might have put it?"
-                ],
-                "incorrect": [
-                    "I don't care where it is.",
-                    "Why should I find it?",
-                    "I'm not looking for it."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "I think I used it last at the dining table, so it should be somewhere around there. Could you check for me?",
-            "location": "LookingDinig"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Sure, let me take a look.",
-            "ex": {
-                "correct": [
-                    "I'll check the dining table.",
-                    "I'll look around there.",
-                    "Let me see if it's there."
-                ],
-                "incorrect": [
-                    "I'm not looking for it.",
-                    "Why should I care?",
-                    "I don't want to help."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "I'm so sorry, I lose things so easily. I don't know how I manage to misplace them all the time.",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "It's okay, everyone does it sometimes. Is this it?",
-            "ex": {
-                "correct": [
-                    "No problem, is this the pen?",
-                    "Don't worry, did I find it?",
-                    "It's alright, is this the one?"
-                ],
-                "incorrect": [
-                    "I don't care.",
-                    "You should be more careful.",
-                    "Why do you lose things?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Yes, that's it! Thank you so much!",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "You're welcome.",
-            "ex": {
-                "correct": [
-                    "No problem.",
-                    "Happy to help.",
-                    "Anytime."
-                ],
-                "incorrect": [
-                    "Why should I care?",
-                    "You owe me.",
-                    "I didn't want to help."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Actually, there's one more thing. I'm looking for my white and blue vase.",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Okay, where do you think you might have left it last?",
-            "ex": {
-                "correct": [
-                    "Do you remember where you used it last?",
-                    "Any idea where it could be?",
-                    "Do you know where you might have put it?"
-                ],
-                "incorrect": [
-                    "I don't care where it is.",
-                    "Why should I find it?",
-                    "I'm not looking for it."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "I washed it with the dishes and then put it away, so I think it's probably in the kitchen cupboard.",
-            "location": "Kitchen"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Let me take a look.",
-            "ex": {
-                "correct": [
-                    "I'll check the kitchen cupboard.",
-                    "I'll look there.",
-                    "Let me see if it's there."
-                ],
-                "incorrect": [
-                    "I'm not looking for it.",
-                    "Why should I care?",
-                    "I don't want to help."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Thank you.",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "There are two vases, one blue and one white. Which one are you looking for?",
-            "ex": {
-                "correct": [
-                    "Which vase do you need?",
-                    "Do you want the blue one or the white one?",
-                    "Which one are you looking for?"
-                ],
-                "incorrect": [
-                    "I don't care which one.",
-                    "Why should I bother?",
-                    "I'm not interested."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "I was looking for the white one! Thank you!",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "You're welcome.",
-            "ex": {
-                "correct": [
-                    "No problem.",
-                    "Happy to help.",
-                    "Anytime."
-                ],
-                "incorrect": [
-                    "Why should I care?",
-                    "You owe me.",
-                    "I didn't want to help."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "See you soon!",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "See you!",
-            "ex": {
-                "correct": [
-                    "Goodbye!",
-                    "Talk to you later!",
-                    "See you next time!"
-                ],
-                "incorrect": [
-                    "You're welcome.",
-                    "I will help you again.",
-                    "What do you need next?"
-                ]
-            }
-        }
-    ],
-    "dialogue32": [
-        {
-            "speaker": "learner",
-            "utterance": "Hi!",
-            "ex": {
-                "correct": [
-                    "Hello!",
-                    "Hey!",
-                    "Good to see you!"
-                ],
-                "incorrect": [
-                    "What's up?",
-                    "Who are you?",
-                    "Why are you here?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Hi, ooi!",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I can't seem to find something. Could you help me look for it?",
-            "ex": {
-                "correct": [
-                    "I need help finding something. Can you assist me?",
-                    "Can you help me find something I've lost?",
-                    "I've misplaced something. Could you help me locate it?"
-                ],
-                "incorrect": [
-                    "I don't need your help.",
-                    "Why should you help me?",
-                    "I can't find my stuff."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Yeah, what are you looking for?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I'm looking for my phone charger.",
-            "ex": {
-                "correct": [
-                    "I'm trying to find my phone charger.",
-                    "I've lost my phone charger.",
-                    "My phone charger is missing."
-                ],
-                "incorrect": [
-                    "I don't care about my phone charger.",
-                    "It's not important.",
-                    "I can't find anything."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Okay, can you describe the charger in more detail? What does it look like?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "It's white and has a Pokémon sticker on it.",
-            "ex": {
-                "correct": [
-                    "It's white with a Pokémon sticker.",
-                    "It's a white charger with a Pokémon sticker on it.",
-                    "It has a Pokémon sticker and is white."
-                ],
-                "incorrect": [
-                    "I don't know what it looks like.",
-                    "It's just a charger.",
-                    "Why should I describe it?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Got it.",
-            "location": ""
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Is this it?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Thank you! Now, I'm looking for my black ballpoint pen.",
-            "ex": {
-                "correct": [
-                    "Thanks! Now, I need help finding my black ballpoint pen.",
-                    "Appreciate it! Now, I'm searching for my black ballpoint pen.",
-                    "Thanks a lot! Next, can you help me find my black ballpoint pen?"
-                ],
-                "incorrect": [
-                    "I don't care about the charger.",
-                    "Why should I find my pen?",
-                    "I'm not looking for anything else."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "No problem. Do you have any idea where you might have left it?",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I think I used it last at the dining table, so it should be somewhere around there.",
-            "ex": {
-                "correct": [
-                    "I believe it's at the dining table.",
-                    "I think it's on or near the dining table.",
-                    "It should be around the dining table."
-                ],
-                "incorrect": [
-                    "I don't remember.",
-                    "It's somewhere.",
-                    "I don't care."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Sure, let me take a look.",
-            "location": "Dinig"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Yes, that's it! Thank you so much!",
-            "ex": {
-                "correct": [
-                    "Yes, you found it! Thanks a lot!",
-                    "That's it! Thank you!",
-                    "Yes, that's the one! Thanks!"
-                ],
-                "incorrect": [
-                    "I don't care.",
-                    "You should have found it earlier.",
-                    "Why did it take so long?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "You're welcome.",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I'm looking for my blue vase.",
-            "ex": {
-                "correct": [
-                    "I need help finding my blue vase.",
-                    "Can you assist me in finding my blue vase?",
-                    "My blue vase is missing. Can you help me find it?"
-                ],
-                "incorrect": [
-                    "I don't care about my vase.",
-                    "It's just a vase.",
-                    "I can't find anything."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Okay, where do you think you might have left it last?",
-            "location": "Home"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "I washed it and then put it away, so I think it's probably in the kitchen cupboard.",
-            "ex": {
-                "correct": [
-                    "I think it's in the kitchen cupboard after I washed it.",
-                    "I put it in the kitchen cupboard after washing it.",
-                    "It's likely in the kitchen cupboard."
-                ],
-                "incorrect": [
-                    "I don't remember.",
-                    "It's somewhere.",
-                    "I don't care."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "Let me take a look. Is this it?",
-            "location": "Kitchen"
-        },
-        {
-            "speaker": "learner",
-            "utterance": "Thank you.",
-            "ex": {
-                "correct": [
-                    "Thanks.",
-                    "I appreciate it.",
-                    "Thank you so much."
-                ],
-                "incorrect": [
-                    "I don't care.",
-                    "Why did it take so long?",
-                    "You should have found it earlier."
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "You're welcome.",
-            "location": ""
-        },
-        {
-            "speaker": "learner",
-            "utterance": "See you soon!",
-            "ex": {
-                "correct": [
-                    "Goodbye!",
-                    "Talk to you later!",
-                    "See you next time!"
-                ],
-                "incorrect": [
-                    "You're welcome.",
-                    "I will help you again.",
-                    "What do you need next?"
-                ]
-            }
-        },
-        {
-            "speaker": "Robot",
-            "utterance": "See you!",
-            "location": ""
-        }
-    ]    
+  "dialogue11": [
+    {
+      "speaker": "robot",
+      "utterance": "Hello! I'm Indy. Nice to meet you!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Hello! I'm oo. Nice to meet you too!",
+      "ex": {
+        "correct": [
+          "Hello! I'm [name]. Nice to meet you too!",
+          "Hi! My name is [name]. Nice to meet you too!",
+          "Hello Indy! I am [name]. Nice to meet you too!"
+        ],
+        "incorrect": [
+          "Hi! What is your name?",
+          "Hello! I'm [name]. Goodbye!",
+          "Nice to meet you."
+        ]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Thank you for coming here today! So, I need your help with something… Can you help me?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Of course! What can I help you with?",
+      "ex": {
+        "correct": [
+          "Sure! What do you need help with?",
+          "Yes, I can help. What do you need?",
+          "Of course! How can I assist?"
+        ],
+        "incorrect": [
+          "No, I can't help you.",
+          "I don't know.",
+          "Maybe, what do you want?"
+        ]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Actually, I have to set the table by 10 minutes. So firstly, can you take 4 placemats?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes, but I don't know where they are.",
+      "ex": {
+        "correct": [
+          "Sure, but where are they?",
+          "Yes, but can you tell me where to find them?",
+          "Of course, but I don't know where they are located."
+        ],
+        "incorrect": [
+          "No, I can't do that.",
+          "I don't want to.",
+          "Where is the table?"
+        ]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Oops, I forgot to tell you where they are. They are on the top of the kitchen counter.",
+      "position": "Kitchen",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I got it.",
+      "ex": {
+        "correct": [
+          "Got it, thanks!",
+          "Okay, I'll get them.",
+          "Understood, I'll take them."
+        ],
+        "incorrect": ["What?", "I don't understand.", "No."]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Thank you. Can you place them now?",
+      "position": "LookingDinig",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes.",
+      "ex": {
+        "correct": ["Sure.", "Yes, I can.", "Of course."],
+        "incorrect": ["No.", "I don't want to.", "Maybe later."]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Good. Next, can you take 4 plates? They are probably on the shelf.",
+      "position": "Shelf",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes.",
+      "ex": {
+        "correct": [
+          "Okay, I'll get them.",
+          "Yes, I will.",
+          "Sure, I'll take them."
+        ],
+        "incorrect": ["No.", "I can't do that.", "Where are the plates?"]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Thank you! Where do you think the plates should be placed?",
+      "position": "",
+      "rad": "",
+      "gesture": "look_right"
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I think I should place them on the centre of each placemat.",
+      "ex": {
+        "correct": [
+          "I think they should go in the center of each placemat.",
+          "They should be placed in the middle of each placemat.",
+          "In the center of each placemat."
+        ],
+        "incorrect": [
+          "I don't know.",
+          "Anywhere is fine.",
+          "Wherever you want."
+        ]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Good idea! Can you place one dinner plate for each person?",
+      "position": "",
+      "rad": 1.2,
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes.",
+      "ex": {
+        "correct": ["Sure.", "Yes, I can.", "Of course."],
+        "incorrect": ["No.", "I don't want to.", "Maybe later."]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Next, I want you to arrange cutleries. We will have roast chicken and salad for dinner, which cutleries do you think we need?",
+      "position": "LookingDinig",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I think we need 4 forks and 4 knives.",
+      "ex": {
+        "correct": [
+          "We need 4 forks and 4 knives.",
+          "I believe we need 4 forks and 4 knives.",
+          "4 forks and 4 knives should be enough."
+        ],
+        "incorrect": [
+          "I don't know.",
+          "We don't need any cutleries.",
+          "Anything is fine."
+        ]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Sounds good! Then, can you take and arrange them?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes.",
+      "ex": {
+        "correct": ["Sure.", "Yes, I can.", "Of course."],
+        "incorrect": ["No.", "I don't want to.", "Maybe later."]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "So next, can you take 4 glasses on the top of the kitchen counter?",
+      "position": "Kitchen",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes.",
+      "ex": {
+        "correct": ["Sure.", "Yes, I can.", "Of course."],
+        "incorrect": ["No.", "I don't want to.", "Maybe later."]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Good. Where do you think the glasses should go?",
+      "position": "LookingDinig",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I think I should put them on the top-left of each placemat.",
+      "ex": {
+        "correct": [
+          "They should go on the top-left of each placemat.",
+          "I believe they should be placed on the top-left corner of each placemat.",
+          "On the top-left of each placemat."
+        ],
+        "incorrect": [
+          "I don't know.",
+          "Anywhere is fine.",
+          "Wherever you want."
+        ]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Sounds great! Can you put them?",
+      "position": "",
+      "rad": 0.7,
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes.",
+      "ex": {
+        "correct": ["Sure.", "Yes, I can.", "Of course."],
+        "incorrect": ["No.", "I don't want to.", "Maybe later."]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Then, can you take 4 napkins in the shelf?",
+      "position": "Shelf",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes.",
+      "ex": {
+        "correct": ["Sure.", "Yes, I can.", "Of course."],
+        "incorrect": ["No.", "I don't want to.", "Maybe later."]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "I want you to put them on each plate, but before you do that, could you fold them nicely?",
+      "position": "",
+      "rad": "",
+      "gesture": "look_right"
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes.",
+      "ex": {
+        "correct": ["Sure.", "Yes, I can.", "Of course."],
+        "incorrect": ["No.", "I don't want to.", "Maybe later."]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "After folding them, can you put them?",
+      "position": "LookingDinig",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I'm sure.",
+      "ex": {
+        "correct": ["Sure.", "Yes, I can.", "Of course."],
+        "incorrect": ["No.", "I don't want to.", "Maybe later."]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Excellent! Thank you for helping me!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "You're welcome!",
+      "ex": {
+        "correct": ["No problem!", "Anytime!", "My pleasure!"],
+        "incorrect": ["Goodbye.", "See you later.", "Whatever."]
+      }
+    },
+    {
+      "speaker": "robot",
+      "utterance": "See you soon!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    }
+  ],
+  "dialogue12": [
+    {
+      "speaker": "learner",
+      "utterance": "Hello!",
+      "ex": {
+        "correct": ["Hi there!", "Hey!", "Good morning!"],
+        "incorrect": ["What's up?", "Who are you?", "Why are you here?"]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Hello!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I need your help with something… Can you help me?",
+      "ex": {
+        "correct": [
+          "Can you assist me with something?",
+          "I need help with a task. Can you help?",
+          "Could you help me with something?"
+        ],
+        "incorrect": [
+          "I don't need help.",
+          "Can you do something for me?",
+          "I need you to do everything."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Of course! What can I help you with?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Firstly, can you take a placemat on the kitchen counter and place them?",
+      "ex": {
+        "correct": [
+          "First, can you grab a placemat from the kitchen counter and place it?",
+          "Can you take a placemat from the kitchen counter and put it down?",
+          "Please take a placemat from the counter and place it."
+        ],
+        "incorrect": [
+          "Can you take the placemats from the table?",
+          "Get the placemat and do something with it.",
+          "Where are the placemats?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Yes.",
+      "position": "Kitchen",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Good. Next, can you take a plate on the shelf?",
+      "ex": {
+        "correct": [
+          "Next, please take a plate from the shelf.",
+          "Can you grab a plate from the shelf?",
+          "Take a plate from the shelf, please."
+        ],
+        "incorrect": [
+          "Take a plate from anywhere.",
+          "Can you get a bowl from the shelf?",
+          "Where are the plates?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Yes.",
+      "position": "Shelf",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Can you place a plate on the centre of the placemat?",
+      "ex": {
+        "correct": [
+          "Can you put the plate in the center of the placemat?",
+          "Please place the plate in the middle of the placemat.",
+          "Put the plate on the center of the placemat."
+        ],
+        "incorrect": [
+          "Put the plate anywhere.",
+          "Can you place the plate under the placemat?",
+          "Do you know where to put the plate?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Yes.",
+      "position": "Dinig",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Then, can you take and arrange a fork and a knife?",
+      "ex": {
+        "correct": [
+          "Can you take a fork and a knife and arrange them?",
+          "Please get a fork and a knife and set them.",
+          "Take a fork and a knife and put them in place."
+        ],
+        "incorrect": [
+          "Can you get a spoon?",
+          "Take a knife and a fork and do something with them.",
+          "Can you arrange some utensils?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Yes.",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "So next, can you take a glass on the kitchen counter?",
+      "ex": {
+        "correct": [
+          "Next, please take a glass from the kitchen counter.",
+          "Can you grab a glass from the counter?",
+          "Take a glass from the kitchen counter, please."
+        ],
+        "incorrect": [
+          "Can you take a cup?",
+          "Get a glass from somewhere.",
+          "Where are the glasses?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Yes.",
+      "position": "Kitchen",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Then, can you put them on the placemat?",
+      "ex": {
+        "correct": [
+          "Please put the glass on the placemat.",
+          "Can you place the glass on the placemat?",
+          "Put the glass on the placemat, please."
+        ],
+        "incorrect": [
+          "Put the glass anywhere.",
+          "Can you put the glass on the floor?",
+          "Do you know where to put the glass?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "I got it.",
+      "position": "Dinig",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Then, can you take a napkin in the drawer?",
+      "ex": {
+        "correct": [
+          "Can you get a napkin from the drawer?",
+          "Please take a napkin out of the drawer.",
+          "Get a napkin from the drawer, please."
+        ],
+        "incorrect": [
+          "Can you take a towel?",
+          "Take a napkin from somewhere.",
+          "Where are the napkins?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Yes.",
+      "position": "Shelf",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Can you fold and put them on the plate?",
+      "ex": {
+        "correct": [
+          "Can you fold the napkin and put it on the plate?",
+          "Please fold the napkin and place it on the plate.",
+          "Fold the napkin and put it on the plate."
+        ],
+        "incorrect": [
+          "Can you put the napkin anywhere?",
+          "Fold the napkin and do something with it.",
+          "Do you know how to fold a napkin?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "I'm sure.",
+      "position": "Dinig",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Excellent! Thank you for helping me!",
+      "ex": {
+        "correct": [
+          "Thanks a lot for your help!",
+          "I appreciate your assistance!",
+          "Thank you very much for helping!"
+        ],
+        "incorrect": ["Goodbye.", "See you later.", "Whatever."]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "You're welcome!",
+      "position": "Home",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "See you soon!",
+      "ex": {
+        "correct": ["Goodbye!", "Talk to you later!", "See you next time!"],
+        "incorrect": [
+          "You're welcome.",
+          "I will help you again.",
+          "What do you need next?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "See you!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    }
+  ],
+  "dialogue21": [
+    {
+      "speaker": "Robot",
+      "utterance": "Hi, oo!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Hi!",
+      "ex": {
+        "correct": ["Hello!", "Hey!", "Good to see you!"],
+        "incorrect": ["What's up?", "Who are you?", "Why are you here?"]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "By the way, don't you think this room is messy?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yeah, it is pretty messy.",
+      "ex": {
+        "correct": [
+          "Yes, it is.",
+          "Absolutely, it's quite messy.",
+          "Indeed, it's very messy."
+        ],
+        "incorrect": [
+          "No, it's clean.",
+          "I don't see any mess.",
+          "Why do you care?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Right? Can you help me tidy up?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Sure, what can I do?",
+      "ex": {
+        "correct": [
+          "Of course, what should I do?",
+          "Sure, how can I help?",
+          "Yes, what needs to be done?"
+        ],
+        "incorrect": ["No, I'm busy.", "I don't want to help.", "Why should I?"]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "First, could you wipe up the spilled water on the table and clean it up?",
+      "position": "LookingDinig",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I got it.",
+      "ex": {
+        "correct": [
+          "Sure, I'll do that.",
+          "Okay, I'll clean it up.",
+          "Yes, I'll take care of it."
+        ],
+        "incorrect": ["No, I can't.", "Why should I?", "I don't want to."]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Thanks. Next, could you put the scattered stuffed animals into that box over there?",
+      "position": "LookingLiving",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes.",
+      "ex": {
+        "correct": [
+          "Sure, I'll do that.",
+          "Okay, I'll pick them up.",
+          "Yes, I'll put them in the box."
+        ],
+        "incorrect": ["No, I can't.", "Why should I?", "I don't want to."]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "By the way, do you like Pokémon?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes, I do.",
+      "ex": {
+        "correct": [
+          "Absolutely, I love Pokémon!",
+          "Yes, I enjoy Pokémon.",
+          "Of course, I like Pokémon."
+        ],
+        "incorrect": ["No, I don't.", "I hate Pokémon.", "Why are you asking?"]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Really! I love Pokémon too. My favourite is Ditto.",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Ditto is cute. I'm done tidying up.",
+      "ex": {
+        "correct": [
+          "Ditto is adorable. I've finished tidying up.",
+          "Ditto is great. I've completed the cleaning.",
+          "Ditto is nice. I'm done with the tidying."
+        ],
+        "incorrect": [
+          "I don't like Ditto.",
+          "Why do you like Ditto?",
+          "What's a Ditto?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Thanks. Now, there are empty water bottles in the kitchen. Could you throw them away in the trash?",
+      "position": "LookingTrushCan",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Sure.",
+      "ex": {
+        "correct": [
+          "Yes, I'll do that.",
+          "Of course, I'll throw them away.",
+          "Okay, I'll take care of it."
+        ],
+        "incorrect": ["No, I can't.", "Why should I?", "I don't want to."]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Do you have any favourite drinks?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I like orange juice.",
+      "ex": {
+        "correct": [
+          "Yes, I love orange juice.",
+          "My favourite is orange juice.",
+          "I enjoy orange juice."
+        ],
+        "incorrect": [
+          "No, I don't have any.",
+          "Why do you care?",
+          "I don't like any drinks."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "That sounds delicious! I only consume electricity, so I can't taste it, though.",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I've thrown them away.",
+      "ex": {
+        "correct": [
+          "The bottles are in the trash.",
+          "I've disposed of the bottles.",
+          "The bottles are thrown away."
+        ],
+        "incorrect": [
+          "I haven't done it yet.",
+          "Why should I throw them away?",
+          "I don't want to."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Thanks! Finally, could you sort the pencils and the erasers on the shelf out?",
+      "position": "Shelf",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Sure.",
+      "ex": {
+        "correct": [
+          "Yes, I'll do that.",
+          "Of course, I'll throw them away.",
+          "Okay, I'll take care of it."
+        ],
+        "incorrect": ["No, I can't.", "Why should I?", "I don't want to."]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Thanks! The room looks much cleaner now!",
+      "position": "",
+      "rad": 3,
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "It' my pleasure, no at all! See you later!",
+      "ex": {
+        "correct": [
+          "You're welcome. Of cource. Goodbye!",
+          "Anytime! Talk to you later!",
+          "No problem! See you next time!"
+        ],
+        "incorrect": [
+          "You're welcome.",
+          "I will help you again.",
+          "What do you need next?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "See you!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    }
+  ],
+  "dialogue22": [
+    {
+      "speaker": "learner",
+      "utterance": "Hi!",
+      "ex": {
+        "correct": ["Hello!", "Hey!", "Good to see you!"],
+        "incorrect": ["What's up?", "Who are you?", "Why are you here?"]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Hi, oo!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Can you help me tidy up?",
+      "ex": {
+        "correct": [
+          "Could you help me clean up?",
+          "Can you assist me in tidying?",
+          "Would you help me organize?"
+        ],
+        "incorrect": [
+          "I don't need your help.",
+          "Why should I tidy up?",
+          "I don't want to clean."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Sure, what can I do?",
+      "position": "Home",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "First, could you wipe up the spilled water on the table and clean it up?",
+      "ex": {
+        "correct": [
+          "Could you clean up the water spill on the table?",
+          "Can you wipe up the water on the table?",
+          "Please clean up the spilled water on the table."
+        ],
+        "incorrect": [
+          "I don't want to clean it.",
+          "Why should I clean it?",
+          "I'm not cleaning the water."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "I got it.",
+      "position": "Dinig",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Thanks. Next, could you put the scattered stuffed animals into that box over there?",
+      "ex": {
+        "correct": [
+          "Can you place the stuffed animals in the box?",
+          "Please put the stuffed animals in the box.",
+          "Could you gather the stuffed animals and put them in the box?"
+        ],
+        "incorrect": [
+          "I don't care about the stuffed animals.",
+          "Why should I pick them up?",
+          "I'm not putting them in the box."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Yes.",
+      "position": "Home",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Thanks. Now, there are empty water bottles in the kitchen. Could you throw them away in the trash?",
+      "ex": {
+        "correct": [
+          "Can you throw away the empty water bottles in the kitchen?",
+          "Please dispose of the empty water bottles in the kitchen.",
+          "Could you take the empty water bottles to the trash?"
+        ],
+        "incorrect": [
+          "I don't want to throw them away.",
+          "Why should I dispose of them?",
+          "I'm not dealing with the bottles."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Sure.",
+      "position": "TrushCan",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Thanks! Finally, could you sort out the pencils and erasers in the drawer?",
+      "ex": {
+        "correct": [
+          "Could you organize the pencils and erasers in the drawer?",
+          "Can you separate the pencils and erasers in the drawer?",
+          "Please sort the pencils and erasers in the drawer."
+        ],
+        "incorrect": [
+          "I don't want to sort them.",
+          "Why should I organize them?",
+          "I'm not sorting the drawer."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "I got it!",
+      "position": "Shelf",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Thanks! The room looks much cleaner now!",
+      "ex": {
+        "correct": [
+          "You're welcome! The room looks great now!",
+          "No problem! The room is much cleaner.",
+          "Glad to help! The room looks tidy now."
+        ],
+        "incorrect": [
+          "I didn't do much.",
+          "It's still messy.",
+          "Why did I have to clean it?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "You're welcome!",
+      "position": "Home",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "See you!",
+      "ex": {
+        "correct": ["Goodbye!", "Talk to you later!", "See you next time!"],
+        "incorrect": [
+          "You're welcome.",
+          "I will help you again.",
+          "What do you need next?"
+        ]
+      }
+    }
+  ],
+  "dialogue31": [
+    {
+      "speaker": "Robot",
+      "utterance": "Hi, oo!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Hi!",
+      "ex": {
+        "correct": ["Hello!", "Hey!", "Good to see you!"],
+        "incorrect": ["What's up?", "Who are you?", "Why are you here?"]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "I can't seem to find something. Could you help me look for it?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yeah, what are you looking for?",
+      "ex": {
+        "correct": [
+          "Sure, what are you looking for?",
+          "Of course, what do you need help finding?",
+          "No problem, what did you lose?"
+        ],
+        "incorrect": [
+          "I don't want to help.",
+          "Why should I help you?",
+          "I'm too busy to help."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "I'm looking for my phone charger. I put it in the bottom drawer, but I can't find it anywhere.",
+      "position": "LookingTV",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Okay, can you describe the charger in more detail? What does it look like?",
+      "ex": {
+        "correct": [
+          "Can you give me more details about the charger?",
+          "What does the charger look like?",
+          "Can you describe the charger?"
+        ],
+        "incorrect": [
+          "I don't care about the charger.",
+          "Why should I find it?",
+          "I'm not interested in helping."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "It's white and has a Pokémon sticker on it.",
+      "position": "",
+      "rad": 0.5,
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Got it.",
+      "ex": {
+        "correct": [
+          "Understood.",
+          "Okay, I'll look for it.",
+          "I'll start looking."
+        ],
+        "incorrect": [
+          "I don't care.",
+          "Why should I bother?",
+          "I'm not interested."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Do you often lose things?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "No, not really. I'm usually pretty good at keeping track of my belongings.",
+      "ex": {
+        "correct": [
+          "No, I usually keep track of my stuff.",
+          "Not often, I usually know where my things are.",
+          "No, I'm quite organized."
+        ],
+        "incorrect": [
+          "Yes, I lose things all the time.",
+          "I'm terrible at keeping track of my stuff.",
+          "I always lose things."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "I got it. I tend to misplace things all the time.",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Hey, is this it?",
+      "ex": {
+        "correct": [
+          "Is this the charger?",
+          "Did I find it?",
+          "Is this what you were looking for?"
+        ],
+        "incorrect": [
+          "I can't find it.",
+          "This isn't it.",
+          "Why should I care?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Oh my gosh, yes! Thank you so much for finding it! Now, I'm looking for my black ballpoint pen.",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "No problem. Do you have any idea where you might have left it?",
+      "ex": {
+        "correct": [
+          "Do you remember where you used it last?",
+          "Any idea where it could be?",
+          "Do you know where you might have put it?"
+        ],
+        "incorrect": [
+          "I don't care where it is.",
+          "Why should I find it?",
+          "I'm not looking for it."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "I think I used it last at the dining table, so it should be somewhere around there. Could you check for me?",
+      "position": "LookingDinig",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Sure, let me take a look.",
+      "ex": {
+        "correct": [
+          "I'll check the dining table.",
+          "I'll look around there.",
+          "Let me see if it's there."
+        ],
+        "incorrect": [
+          "I'm not looking for it.",
+          "Why should I care?",
+          "I don't want to help."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "I'm so sorry, I lose things so easily. I don't know how I manage to misplace them all the time.",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "It's okay, everyone does it sometimes. Is this it?",
+      "ex": {
+        "correct": [
+          "No problem, is this the pen?",
+          "Don't worry, did I find it?",
+          "It's alright, is this the one?"
+        ],
+        "incorrect": [
+          "I don't care.",
+          "You should be more careful.",
+          "Why do you lose things?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Yes, that's it! Thank you so much!",
+      "position": "",
+      "rad": 0.5,
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "You're welcome.",
+      "ex": {
+        "correct": ["No problem.", "Happy to help.", "Anytime."],
+        "incorrect": [
+          "Why should I care?",
+          "You owe me.",
+          "I didn't want to help."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Actually, there's one more thing. I'm looking for my white and blue vase.",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Okay, where do you think you might have left it last?",
+      "ex": {
+        "correct": [
+          "Do you remember where you used it last?",
+          "Any idea where it could be?",
+          "Do you know where you might have put it?"
+        ],
+        "incorrect": [
+          "I don't care where it is.",
+          "Why should I find it?",
+          "I'm not looking for it."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "I washed it with the dishes and then put it away, so I think it's probably in the kitchen cupboard.",
+      "position": "Kitchen",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Let me take a look.",
+      "ex": {
+        "correct": [
+          "I'll check the kitchen cupboard.",
+          "I'll look there.",
+          "Let me see if it's there."
+        ],
+        "incorrect": [
+          "I'm not looking for it.",
+          "Why should I care?",
+          "I don't want to help."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Thank you.",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "There are two vases, one blue and one white. Which one are you looking for?",
+      "ex": {
+        "correct": [
+          "Which vase do you need?",
+          "Do you want the blue one or the white one?",
+          "Which one are you looking for?"
+        ],
+        "incorrect": [
+          "I don't care which one.",
+          "Why should I bother?",
+          "I'm not interested."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "I was looking for the white one! Thank you!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "You're welcome.",
+      "ex": {
+        "correct": ["No problem.", "Happy to help.", "Anytime."],
+        "incorrect": [
+          "Why should I care?",
+          "You owe me.",
+          "I didn't want to help."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "See you soon!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "See you!",
+      "ex": {
+        "correct": ["Goodbye!", "Talk to you later!", "See you next time!"],
+        "incorrect": [
+          "You're welcome.",
+          "I will help you again.",
+          "What do you need next?"
+        ]
+      }
+    }
+  ],
+  "dialogue32": [
+    {
+      "speaker": "learner",
+      "utterance": "Hi!",
+      "ex": {
+        "correct": ["Hello!", "Hey!", "Good to see you!"],
+        "incorrect": ["What's up?", "Who are you?", "Why are you here?"]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Hi, ooi!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I can't seem to find something. Could you help me look for it?",
+      "ex": {
+        "correct": [
+          "I need help finding something. Can you assist me?",
+          "Can you help me find something I've lost?",
+          "I've misplaced something. Could you help me locate it?"
+        ],
+        "incorrect": [
+          "I don't need your help.",
+          "Why should you help me?",
+          "I can't find my stuff."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Yeah, what are you looking for?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I'm looking for my phone charger.",
+      "ex": {
+        "correct": [
+          "I'm trying to find my phone charger.",
+          "I've lost my phone charger.",
+          "My phone charger is missing."
+        ],
+        "incorrect": [
+          "I don't care about my phone charger.",
+          "It's not important.",
+          "I can't find anything."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Okay, can you describe the charger in more detail? What does it look like?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "It's white and has a Pokémon sticker on it.",
+      "ex": {
+        "correct": [
+          "It's white with a Pokémon sticker.",
+          "It's a white charger with a Pokémon sticker on it.",
+          "It has a Pokémon sticker and is white."
+        ],
+        "incorrect": [
+          "I don't know what it looks like.",
+          "It's just a charger.",
+          "Why should I describe it?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Got it.",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Is this it?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Thank you! Now, I'm looking for my black ballpoint pen.",
+      "ex": {
+        "correct": [
+          "Thanks! Now, I need help finding my black ballpoint pen.",
+          "Appreciate it! Now, I'm searching for my black ballpoint pen.",
+          "Thanks a lot! Next, can you help me find my black ballpoint pen?"
+        ],
+        "incorrect": [
+          "I don't care about the charger.",
+          "Why should I find my pen?",
+          "I'm not looking for anything else."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "No problem. Do you have any idea where you might have left it?",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I think I used it last at the dining table, so it should be somewhere around there.",
+      "ex": {
+        "correct": [
+          "I believe it's at the dining table.",
+          "I think it's on or near the dining table.",
+          "It should be around the dining table."
+        ],
+        "incorrect": ["I don't remember.", "It's somewhere.", "I don't care."]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Sure, let me take a look.",
+      "position": "Dinig",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes, that's it! Thank you so much!",
+      "ex": {
+        "correct": [
+          "Yes, you found it! Thanks a lot!",
+          "That's it! Thank you!",
+          "Yes, that's the one! Thanks!"
+        ],
+        "incorrect": [
+          "I don't care.",
+          "You should have found it earlier.",
+          "Why did it take so long?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "You're welcome.",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I'm looking for my blue vase.",
+      "ex": {
+        "correct": [
+          "I need help finding my blue vase.",
+          "Can you assist me in finding my blue vase?",
+          "My blue vase is missing. Can you help me find it?"
+        ],
+        "incorrect": [
+          "I don't care about my vase.",
+          "It's just a vase.",
+          "I can't find anything."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Okay, where do you think you might have left it last?",
+      "position": "Home",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I washed it and then put it away, so I think it's probably in the kitchen cupboard.",
+      "ex": {
+        "correct": [
+          "I think it's in the kitchen cupboard after I washed it.",
+          "I put it in the kitchen cupboard after washing it.",
+          "It's likely in the kitchen cupboard."
+        ],
+        "incorrect": ["I don't remember.", "It's somewhere.", "I don't care."]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Let me take a look. Is this it?",
+      "position": "Kitchen",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Thank you.",
+      "ex": {
+        "correct": ["Thanks.", "I appreciate it.", "Thank you so much."],
+        "incorrect": [
+          "I don't care.",
+          "Why did it take so long?",
+          "You should have found it earlier."
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "You're welcome.",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    },
+    {
+      "speaker": "learner",
+      "utterance": "See you soon!",
+      "ex": {
+        "correct": ["Goodbye!", "Talk to you later!", "See you next time!"],
+        "incorrect": [
+          "You're welcome.",
+          "I will help you again.",
+          "What do you need next?"
+        ]
+      }
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "See you!",
+      "position": "",
+      "rad": "",
+      "gesture": ""
+    }
+  ]
 }

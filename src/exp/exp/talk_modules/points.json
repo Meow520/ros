@@ -1,11 +1,11 @@
 {
   "Home": { "position": [4.689 ,23.46, -1.59 ] },
-  "Kitchen": { "position": [6.987 ,22.93, 0 ] },
+  "Kitchen": { "position": [6.987 ,22.93, 0.0 ] },
   "Shelf": { "position": [8.758 ,19.48, -1.83 ] },
   "TrushCan": {
     "position": [8.89 ,21.93, 0.45 ]
   },
-  "Dinig": { "position": [6.904 ,20.66, 0 ] },
+  "Dinig": { "position": [6.904 ,20.66, 0.0 ] },
   "LookingDinig": {
     "position": [6.508 ,21.87, -0.45 ]
   },
@@ -13,7 +13,7 @@
     "position": [6.654 ,23.21, 3.087 ]
   },
   "LookingTrushCan": {
-    "position": [6.639 ,22.08, 0 ]
+    "position": [6.639 ,22.08, 0.0 ]
   },
   "LookingTV": {
     "position": [3.639 ,23.61, 1.204 ]

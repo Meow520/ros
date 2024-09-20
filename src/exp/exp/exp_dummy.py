@@ -21,9 +21,7 @@ load_dotenv(dotenv_path)
 class Exp(Node):
     def __init__(self, script: list, um: any, nm: any, ges: any):
         super().__init__("exp")
-        self.create_subscription(StringStamped, "/asr/meta_data", self.asr_callback, 10)
-        # It might be this topic below
-        # self.create_subscription(StringStamped, "indy1/asr/meta_data", self.asr_callback, 10)
+        self.create_subscription(StringStamped, "asr_dummy", self.asr_dummy_callback, 10)
         self.script = script
         self.um = um
         self.nm = nm
@@ -32,9 +30,9 @@ class Exp(Node):
         self.index: int = 0
         self.correct: bool = True
         self.stop: bool = False
-        self.current_nav: List[float] = [0.0, 0.0, 0.0]
+        self.current_pos: str = "Home"
 
-    def asr_callback(self, msg):
+    def asr_dummy_callback(self, msg):
         if self.stop:
             exit()
         subscribe_data = json.loads(msg.data)
@@ -53,13 +51,39 @@ class Exp(Node):
         self.get_logger().info(f"SCRIPT:{res_script}, POSITION:{res_nav}, RAD:{res_rad}, GESTURE:{res_ges}")
         
         # send text data (robot speaking)
-        self.um.insert({"text":res_script})
+        # self.um.insert({"text":res_script})
         
         # send position data (robot moving)
-        if res_nav:
-            self.nm.insert({"navigation":res_nav})
-        if res_ges:
-            self.ges.insert({"gesture":res_ges})
+        # if res_nav:
+            # self.nm.insert({"navigation":res_nav})
+        # if res_ges:
+        #     self.ges.insert({"gesture":res_ges})
+        
+    def dummy_speech(self) -> Tuple[str, Optional[list], Optional[float], Optional[str]]:
+        # put the command of repeat or skip
+        cmd = input("Input your command (1: repeat, 2:skip, enter:none):")
+
+        # repeat
+        if cmd == "1":
+            pass
+
+        # skip
+        elif cmd == "2":
+            self.index += 4
+
+        # none
+        else:
+            self.index += 2
+
+        if self.index > len(self.script):
+            self.stop = True
+            exit()
+        
+        current_script = self.script[self.index]["utterance"]
+        current_position = self.script[self.index]["position"] if self.script[self.index]["position"] else None
+        current_rad = self.script[self.index]["rad"] if self.script[self.index]["rad"] else None
+        current_ges = self.script[self.index]["gesture"] if self.script[self.index]["gesture"] else None
+        return current_script, current_position, current_rad, current_ges
 
     def speech(self, data) -> Tuple[str, list, Optional[float], Optional[str]]:
         # put the command of repeat or skip
@@ -90,7 +114,6 @@ class Exp(Node):
 
             else:
                 return feedback, None, None, None
-
 
     # user speech feedback
     def feedback(self, data) -> str:
@@ -154,7 +177,7 @@ def main(args=None):
     nm = NavigationManager("i1-brain.ad180.riken.go.jp", 9010, "indy1")
     ges = GestureManager("i1-brain.ad180.riken.go.jp", 9010, "indy1")
     # robot speaks first script before user speaking
-    um.insert({"text": script[0]["utterance"]})
+    # um.insert({"text": script[0]["utterance"]})
     print(({"text": script[0]["utterance"]}))
 
     rclpy.init(args=args)

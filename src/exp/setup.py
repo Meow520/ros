@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "exp = exp.exp:main",
-            "asr_dummy = exp.asr_dummy:main"
+            "asr_dummy = exp.asr_dummy:main",
+            "exp_dummy = exp.exp_dummy:main"
         ],
     },
 )
