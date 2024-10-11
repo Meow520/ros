@@ -1,0 +1,498 @@
+{
+  "dialogue11": [
+    {
+      "speaker": "robot",
+      "utterance": "Hello! I'm Indy. Nice to meet you!"
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Hello! I'm oo. Nice to meet you too!"
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Thank you for coming here today! Did you manage to memorise the vocabulary for table setting?"
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Yes"
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Great! Shall we practise pronunciation together? First, 'Set the table.' Repeat after me."
+    },
+    {
+      "speaker": "learner",
+      "utterance": "Set the table"
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Good job! Let's continue with four more! Next is the second one, Repeat after me!'place the plates.'"
+    },
+    {
+      "speaker": "learner",
+      "utterance": "place the plates"
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Great! Now, let's make a sentence with this! 'I'm placing 4 plates on the table.'"
+    },
+    {
+      "speaker": "learner",
+      "utterance": "I'm placing 4 plates on the table."
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Very nice! Next is the third one. Repeat after me!'arrange the cutlery.' "
+    },
+    {
+      "speaker": "learner",
+      "utterance": "arrange the cutlery"
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Great! Now, let's make a sentence with this! Repeat after me!'He is arranging 4 forks and 4 knives.'"
+    },
+    {
+      "speaker": "learner",
+      "utterance": "He is arranging 4 forks and 4 knives."
+    },
+    {
+      "speaker": "robot",
+      "utterance": "That's great! Moving on to the fourth one. Repeat after me, 'put the glass.'"
+    },
+    {
+      "speaker": "learner",
+      "utterance": "put the glass"
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Great! Now, let's make a sentence with this! 'You are putting 3 glasses on the table.' Repeat after me!"
+    },
+    {
+      "speaker": "learner",
+      "utterance": "You are putting 3 glasses on the table."
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Nice! Lastly, the fifth one. 'fold the napkins.' Repeat after me!"
+    },
+    {
+      "speaker": "learner",
+      "utterance": "fold the napkins"
+    },
+    {
+      "speaker": "robot",
+      "utterance": "Great! Now, let's make a sentence with this! 'Please fold the napkin nicely.' Repeat after me!"
+    },
+    {
+      "speaker": "learner",
+      "utterance": "'Please fold the napkin nicely.'"
+    },
+    {
+      "speaker": "robot",
+      "utterance": "That's very good! That concludes our study. Thank you for studying together!"
+    }
+  ],
+  "dialogue12": [
+    {
+      "speaker": "Learner",
+      "utterance": "Hello!"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Hello! So, let's make a sentence using the words displayed on the screen. First, here's the first one."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Nice! Next, the second one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Good! Next, the third one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Next, the fourth one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Good job! Next, the fifth one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Next is the last one."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great job! Thank you for studying with me!"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "You’re welcome!"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "See you!"
+    }
+  ],
+  "dialogue21": [
+    {
+      "speaker": "Robot",
+      "utterance": "Hello!"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "Hello!"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Thank you for coming here today! Did you manage to memorise the vocabulary for cleaning?"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "Yes."
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Shall we practise pronunciation together? First, 'Tidy up.' Repeat after me."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "Tidy up."
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Nice! Now, let's use this to make a sentence! Repeat after me, 'I tidy up my room every morning.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'I tidy up my room every morning.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Good job! Let's continue with four more! Next is the second one, Repeat after me! 'Put away.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'Put away.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Now, let's make a sentence with this! Repeat after me, 'I put away the dishes after dinner.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'I put away the dishes after dinner.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Very nice! Next is the third one. Repeat after me! 'Wipe up.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'Wipe up.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Now, let's make a sentence with this! Repeat after me, 'I wipe up the table after every meal.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'I wipe up the table after every meal.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "That's great! Moving on to the fourth one. Repeat after me, 'Sort out.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'Sort out.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Now, let's make a sentence with this! Repeat after me, 'I sort out my clothes every weekend.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'I sort out my clothes every weekend.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Nice! Lastly, the fifth one. 'Throw away.' Repeat after me!"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'Throw away.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Now, let's make a sentence with this! Repeat after me, 'I throw away old newspapers every week.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'I throw away old newspapers every week.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "That's very good! That concludes our study. Thank you for studying together!"
+    }
+  ],
+  "dialogue22": [
+    {
+      "speaker": "Learner",
+      "utterance": "Hello!"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Hello! So, let's make a sentence using the words displayed on the screen. First, here's the first one."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Nice! Next, the second one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Good! Next, the third one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Next, the fourth one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Good job! Next, the fifth one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Next is the last one."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great job! Thank you for studying with me!"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "You’re welcome!"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "See you!"
+    }
+  ],
+  "dialogue31": [
+    {
+      "speaker": "Robot",
+      "utterance": "Hello! I’m Indy. Nice to meet you!"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "Hello! I’m oo. Nice to meet you too!"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Thank you for coming here today! Did you manage to memorise the vocabulary for finding?"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "Yes."
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Shall we practise pronunciation together? First, 'Look up.' Repeat after me."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "Look up."
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Nice! Now, let's use this to make a sentence! Repeat after me, 'I look up new words in the dictionary.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'I look up new words in the dictionary.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Good job! Let's continue with four more! Next is the second one, Repeat after me! 'Describe.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "Describe."
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Now, let's make a sentence with this! Repeat after me, 'Can you describe your phone for me?'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'Can you describe your phone for me?'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Very nice! Next is the third one. Repeat after me! 'Let me take a look.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'Let me take a look.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Now, let's make a sentence with this! Repeat after me, 'Let me take a look at the document.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'Let me take a look at the document.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "That's great! Moving on to the fourth one. Repeat after me, 'Look like.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'Look like.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Now, let's make a sentence with this! Repeat after me, 'This book looks like it's interesting.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'This book looks like it's interesting.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Nice! Lastly, the fifth one. 'Feature.' Repeat after me!"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "Feature."
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Now, let's make a sentence with this! Repeat after me, 'The main feature of this phone is its camera.'"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "'The main feature of this phone is its camera.'"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "That's very good! That concludes our study. Thank you for studying together!"
+    }
+  ],
+  "dialogue32": [
+    {
+      "speaker": "Learner",
+      "utterance": "Hello!"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Hello! So, let's make a sentence using the words displayed on the screen. First, here's the first one."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Nice! Next, the second one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Good! Next, the third one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Next, the fourth one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Good job! Next, the fifth one is here."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great! Next is the last one."
+    },
+    {
+      "speaker": "Learner",
+      "utterance": ""
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "Great job! Thank you for studying with me!"
+    },
+    {
+      "speaker": "Learner",
+      "utterance": "You’re welcome!"
+    },
+    {
+      "speaker": "Robot",
+      "utterance": "See you!"
+    }
+  ]
+}

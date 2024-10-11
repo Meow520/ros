@@ -48,30 +48,7 @@
     },
     {
       "speaker": "robot",
-      "utterance": "Actually, I have to set the table by 10 minutes. So firstly, can you take 4 placemats?",
-      "position": "",
-      "rad": "",
-      "gesture": ""
-    },
-    {
-      "speaker": "learner",
-      "utterance": "Yes, but I don't know where they are.",
-      "ex": {
-        "correct": [
-          "Sure, but where are they?",
-          "Yes, but can you tell me where to find them?",
-          "Of course, but I don't know where they are located."
-        ],
-        "incorrect": [
-          "No, I can't do that.",
-          "I don't want to.",
-          "Where is the table?"
-        ]
-      }
-    },
-    {
-      "speaker": "robot",
-      "utterance": "Oops, I forgot to tell you where they are. They are on the top of the kitchen counter.",
+      "utterance": "Actually, I have to set the table by 10 minutes. So firstly, can you take 4 placemats on the top of the kitchen counter.?",
       "position": "Kitchen",
       "rad": "",
       "gesture": ""
@@ -91,7 +68,7 @@
     {
       "speaker": "robot",
       "utterance": "Thank you. Can you place them now?",
-      "position": "LookingDinig",
+      "position": "Dinig",
       "rad": "",
       "gesture": ""
     },
@@ -149,7 +126,7 @@
       "speaker": "robot",
       "utterance": "Good idea! Can you place one dinner plate for each person?",
       "position": "",
-      "rad": 1.2,
+      "rad": 1.5,
       "gesture": ""
     },
     {
@@ -163,7 +140,7 @@
     {
       "speaker": "robot",
       "utterance": "Next, I want you to arrange cutleries. We will have roast chicken and salad for dinner, which cutleries do you think we need?",
-      "position": "LookingDinig",
+      "position": "",
       "rad": "",
       "gesture": ""
     },
@@ -216,7 +193,7 @@
     {
       "speaker": "robot",
       "utterance": "Good. Where do you think the glasses should go?",
-      "position": "LookingDinig",
+      "position": "Dinig",
       "rad": "",
       "gesture": ""
     },
@@ -240,7 +217,7 @@
       "speaker": "robot",
       "utterance": "Sounds great! Can you put them?",
       "position": "",
-      "rad": 0.7,
+      "rad": "",
       "gesture": ""
     },
     {
@@ -284,8 +261,8 @@
     {
       "speaker": "robot",
       "utterance": "After folding them, can you put them?",
-      "position": "LookingDinig",
-      "rad": "",
+      "position": "",
+      "rad": 1.5,
       "gesture": ""
     },
     {
@@ -321,14 +298,6 @@
   ],
   "dialogue12": [
     {
-      "speaker": "learner",
-      "utterance": "Hello!",
-      "ex": {
-        "correct": ["Hi there!", "Hey!", "Good morning!"],
-        "incorrect": ["What's up?", "Who are you?", "Why are you here?"]
-      }
-    },
-    {
       "speaker": "Robot",
       "utterance": "Hello!",
       "position": "",
@@ -337,7 +306,7 @@
     },
     {
       "speaker": "learner",
-      "utterance": "I need your help with something… Can you help me?",
+      "utterance": "Hello, actually I need your help with something… Can you help me?",
       "ex": {
         "correct": [
           "Can you assist me with something?",
@@ -584,7 +553,7 @@
   "dialogue21": [
     {
       "speaker": "Robot",
-      "utterance": "Hi, oo!",
+      "utterance": "Hi!",
       "position": "",
       "rad": "",
       "gesture": ""
@@ -642,7 +611,7 @@
     {
       "speaker": "Robot",
       "utterance": "First, could you wipe up the spilled water on the table and clean it up?",
-      "position": "LookingDinig",
+      "position": "Dinig",
       "rad": "",
       "gesture": ""
     },
@@ -679,48 +648,6 @@
     },
     {
       "speaker": "Robot",
-      "utterance": "By the way, do you like Pokémon?",
-      "position": "",
-      "rad": "",
-      "gesture": ""
-    },
-    {
-      "speaker": "learner",
-      "utterance": "Yes, I do.",
-      "ex": {
-        "correct": [
-          "Absolutely, I love Pokémon!",
-          "Yes, I enjoy Pokémon.",
-          "Of course, I like Pokémon."
-        ],
-        "incorrect": ["No, I don't.", "I hate Pokémon.", "Why are you asking?"]
-      }
-    },
-    {
-      "speaker": "Robot",
-      "utterance": "Really! I love Pokémon too. My favourite is Ditto.",
-      "position": "",
-      "rad": "",
-      "gesture": ""
-    },
-    {
-      "speaker": "learner",
-      "utterance": "Ditto is cute. I'm done tidying up.",
-      "ex": {
-        "correct": [
-          "Ditto is adorable. I've finished tidying up.",
-          "Ditto is great. I've completed the cleaning.",
-          "Ditto is nice. I'm done with the tidying."
-        ],
-        "incorrect": [
-          "I don't like Ditto.",
-          "Why do you like Ditto?",
-          "What's a Ditto?"
-        ]
-      }
-    },
-    {
-      "speaker": "Robot",
       "utterance": "Thanks. Now, there are empty water bottles in the kitchen. Could you throw them away in the trash?",
       "position": "LookingTrushCan",
       "rad": "",
@@ -736,52 +663,6 @@
           "Okay, I'll take care of it."
         ],
         "incorrect": ["No, I can't.", "Why should I?", "I don't want to."]
-      }
-    },
-    {
-      "speaker": "Robot",
-      "utterance": "Do you have any favourite drinks?",
-      "position": "",
-      "rad": "",
-      "gesture": ""
-    },
-    {
-      "speaker": "learner",
-      "utterance": "I like orange juice.",
-      "ex": {
-        "correct": [
-          "Yes, I love orange juice.",
-          "My favourite is orange juice.",
-          "I enjoy orange juice."
-        ],
-        "incorrect": [
-          "No, I don't have any.",
-          "Why do you care?",
-          "I don't like any drinks."
-        ]
-      }
-    },
-    {
-      "speaker": "Robot",
-      "utterance": "That sounds delicious! I only consume electricity, so I can't taste it, though.",
-      "position": "",
-      "rad": "",
-      "gesture": ""
-    },
-    {
-      "speaker": "learner",
-      "utterance": "I've thrown them away.",
-      "ex": {
-        "correct": [
-          "The bottles are in the trash.",
-          "I've disposed of the bottles.",
-          "The bottles are thrown away."
-        ],
-        "incorrect": [
-          "I haven't done it yet.",
-          "Why should I throw them away?",
-          "I don't want to."
-        ]
       }
     },
     {
@@ -807,8 +688,8 @@
       "speaker": "Robot",
       "utterance": "Thanks! The room looks much cleaner now!",
       "position": "",
-      "rad": 3,
-      "gesture": ""
+      "rad": "",
+      "gesture": "look_right"
     },
     {
       "speaker": "learner",
@@ -845,7 +726,7 @@
     },
     {
       "speaker": "Robot",
-      "utterance": "Hi, oo!",
+      "utterance": "Hi!",
       "position": "",
       "rad": "",
       "gesture": ""

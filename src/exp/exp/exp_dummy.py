@@ -21,7 +21,7 @@ load_dotenv(dotenv_path)
 class Exp(Node):
     def __init__(self, script: list, um: any, nm: any, ges: any):
         super().__init__("exp")
-        self.create_subscription(StringStamped, "asr_dummy", self.asr_dummy_callback, 10)
+        self.create_subscription(StringStamped, "asr_dummy", self.asr_callback, 10)
         self.script = script
         self.um = um
         self.nm = nm
@@ -32,13 +32,12 @@ class Exp(Node):
         self.stop: bool = False
         self.current_pos: str = "Home"
 
-    def asr_dummy_callback(self, msg):
+    def asr_callback(self, msg):
         if self.stop:
             exit()
         subscribe_data = json.loads(msg.data)
         self.get_logger().info(f"USER SPEECH:{subscribe_data}")
-        # res_script, res_position = self.speech(subscribe_data)
-        res_script, res_position, res_rad, res_ges = self.dummy_speech()
+        res_script, res_position, res_rad, res_ges = self.speech_no_feedback()
         if res_position:
             res_nav = get_point(name=res_position, points=self.points)
             self.current_pos = res_position
@@ -51,15 +50,15 @@ class Exp(Node):
         self.get_logger().info(f"SCRIPT:{res_script}, POSITION:{res_nav}, RAD:{res_rad}, GESTURE:{res_ges}")
         
         # send text data (robot speaking)
-        # self.um.insert({"text":res_script})
+        self.um.insert({"text":res_script})
         
         # send position data (robot moving)
-        # if res_nav:
-            # self.nm.insert({"navigation":res_nav})
-        # if res_ges:
-        #     self.ges.insert({"gesture":res_ges})
+        if res_nav:
+            self.nm.insert({"navigation":res_nav})
+        if res_ges:
+            self.ges.insert({"gesture":res_ges})
         
-    def dummy_speech(self) -> Tuple[str, Optional[list], Optional[float], Optional[str]]:
+    def speech_no_feedback(self) -> Tuple[str, Optional[list], Optional[float], Optional[str]]:
         # put the command of repeat or skip
         cmd = input("Input your command (1: repeat, 2:skip, enter:none):")
 
@@ -77,6 +76,7 @@ class Exp(Node):
 
         if self.index > len(self.script):
             self.stop = True
+            self.nm.insert({"navigation":get_point(name="Home", points=self.points)})
             exit()
         
         current_script = self.script[self.index]["utterance"]
@@ -106,6 +106,11 @@ class Exp(Node):
                     self.index += 4
                 else:
                     self.index += 2
+                    
+                if self.index > len(self.script):
+                    self.stop = True
+                    exit()
+                    
                 current_script = self.script[self.index]
                 current_position = self.script[self.index]["position"] if self.script[self.index]["position"] else None
                 current_rad = self.script[self.index]["rad"] if self.script[self.index]["rad"] else None
@@ -177,7 +182,7 @@ def main(args=None):
     nm = NavigationManager("i1-brain.ad180.riken.go.jp", 9010, "indy1")
     ges = GestureManager("i1-brain.ad180.riken.go.jp", 9010, "indy1")
     # robot speaks first script before user speaking
-    # um.insert({"text": script[0]["utterance"]})
+    um.insert({"text": script[0]["utterance"]})
     print(({"text": script[0]["utterance"]}))
 
     rclpy.init(args=args)

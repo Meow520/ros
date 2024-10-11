@@ -24,10 +24,12 @@ def get_point(name:str, points:dict, rad:float = None) -> list:
         if type(rad) != float:
             raise TypeError("Rad must be float.")
     
+    point = [0, 0, 0]
     if name in ["Home", "Kitchen", "Shelf", "TrushCan", "Dinig", "LookingDinig", "LookingLiving", "LookingTrushCan", "LookingTV"]:
+        point = points[name]["position"][:]
         if rad is not None:
-            points[name]["position"][2] = rad
-        return points[name]["position"]
+            point[2] = rad
+        return point
     else:
         return
     
