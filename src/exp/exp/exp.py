@@ -4,9 +4,10 @@ import rclpy
 import json
 from dotenv import load_dotenv
 from os.path import join, dirname
-from typing import Tuple, Optional, List
+from typing import Tuple, Optional
 from random import randint
 from pyindy.mongo import UtteranceManager, NavigationManager, GestureManager
+from rclpy import qos
 from rclpy.node import Node
 from .talk_modules.scripts import get_script
 from .talk_modules.points import get_point, get_points_file
@@ -22,8 +23,6 @@ class Exp(Node):
     def __init__(self, script: list, um: any, nm: any, ges: any):
         super().__init__("exp")
         self.create_subscription(StringStamped, "/asr/meta_data", self.asr_callback, 10)
-        # It might be this topic below
-        # self.create_subscription(StringStamped, "indy1/asr/meta_data", self.asr_callback, 10)
         self.script = script
         self.um = um
         self.nm = nm
@@ -32,15 +31,15 @@ class Exp(Node):
         self.index: int = 0
         self.correct: bool = True
         self.stop: bool = False
-        self.current_nav: List[float] = [0.0, 0.0, 0.0]
-
+        self.current_pos: str = "Home"
+        self.current_ges:str = "front"
+    
     def asr_callback(self, msg):
         if self.stop:
             exit()
         subscribe_data = json.loads(msg.data)
-        self.get_logger().info(f"USER SPEECH:{subscribe_data}")
-        # res_script, res_position = self.speech(subscribe_data)
-        res_script, res_position, res_rad, res_ges = self.dummy_speech()
+        self.get_logger().info(f"USER SPEECH:{subscribe_data['words']}")
+        res_script, res_position, res_rad, res_ges = self.speech(subscribe_data)
         if res_position:
             res_nav = get_point(name=res_position, points=self.points)
             self.current_pos = res_position
@@ -49,23 +48,29 @@ class Exp(Node):
             self.get_logger().info(f"CURRENT_POS:{self.current_pos}, RES_NAV:{res_nav}")
         else:
             res_nav = None
-        self.current_pos = res_position if res_position else self.current_pos
-        self.get_logger().info(f"SCRIPT:{res_script}, POSITION:{res_nav}, RAD:{res_rad}, GESTURE:{res_ges}")
         
-        # send text data (robot speaking)
-        self.um.insert({"text":res_script})
+        if self.current_ges != "front":
+            if not res_ges:
+                res_ges = "front"
+        
+        self.current_pos = res_position if res_position else self.current_pos
+        self.get_logger().info(f"SCRIPT:{res_script}, POSITION:{res_nav}, RAD:{res_rad}, GESTURE:{res_ges}")        
         
         # send position data (robot moving)
         if res_nav:
             self.nm.insert({"navigation":res_nav})
         if res_ges:
             self.ges.insert({"gesture":res_ges})
+            self.current_ges = res_ges
+
+        # send text data (robot speaking)
+        self.um.insert({"text":res_script})
 
     def speech(self, data) -> Tuple[str, list, Optional[float], Optional[str]]:
         # put the command of repeat or skip
         cmd = input("Input your command (1: repeat, 2:skip, enter:none):")
 
-        # repeat
+        # repeat or first line
         if cmd == "1":
             current_script = self.script[self.index]["utterance"]
             current_position = self.script[self.index]["position"] if self.script[self.index]["position"] else None
@@ -82,7 +87,7 @@ class Exp(Node):
                     self.index += 4
                 else:
                     self.index += 2
-                current_script = self.script[self.index]
+                current_script = self.script[self.index]["utterance"]
                 current_position = self.script[self.index]["position"] if self.script[self.index]["position"] else None
                 current_rad = self.script[self.index]["rad"] if self.script[self.index]["rad"] else None
                 current_ges = self.script[self.index]["gesture"] if self.script[self.index]["gesture"] else None
@@ -96,11 +101,11 @@ class Exp(Node):
     def feedback(self, data) -> str:
         # 調整済み
         openai.api_key = os.environ.get("OPENAI_API_KEY")
-        user_speech = data["words"]
-        predicted_speech = self.script[self.index + 1]["utterance"]
+        user_speech = data["words"].replace(",", "").replace(".", "").lower()
+        predicted_speech = self.script[self.index + 1]["utterance"].replace(",", "").replace(".", "").lower()
         correct_examples = self.script[self.index + 1]["ex"]["correct"]
         correct_examples.append(predicted_speech)
-        current_script = self.script[self.index]
+        examples = [item.replace(",", "").replace(".", "").replace("!", "").lower() for item in correct_examples]
         params = [
         {"role": "system", "content": "You are a peer of the user who is an English learner talking with you."},
         {
@@ -109,7 +114,7 @@ class Exp(Node):
         },
         {
             "role": "system",
-            "content": f"Here are some sample answer,  {correct_examples}",
+            "content": f"Here are a predicted speech, {predicted_speech}, and some sample answer,  {examples}",
         },
         {
             "role": "system",
@@ -127,15 +132,15 @@ class Exp(Node):
         params.append(
             {
                 "role": "user",
-                "content": f"The robot said {current_script},  and The user said {user_speech}",
+                "content": f"The user said {user_speech}",
             }
         )
         response = openai.ChatCompletion.create(model="gpt-4o-mini", messages=params)
-        message = response.choices[0].message.content
-        if message.lower() == "correct":
+        message = response.choices[0].message.content.replace(",", "").replace(".", "").replace("!", "").lower()
+        if message == "correct":
             self.correct = True
             return "correct"
-        elif message == user_speech:
+        elif message == user_speech or user_speech in message:
             return "correct"
         else:
             customary_epithet = ["That means, ", "You should say, "]

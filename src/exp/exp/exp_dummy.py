@@ -31,32 +31,36 @@ class Exp(Node):
         self.correct: bool = True
         self.stop: bool = False
         self.current_pos: str = "Home"
+        self.current_ges:str = "front"
 
     def asr_callback(self, msg):
         if self.stop:
             exit()
         subscribe_data = json.loads(msg.data)
         self.get_logger().info(f"USER SPEECH:{subscribe_data}")
-        res_script, res_position, res_rad, res_ges = self.speech_no_feedback()
+        res_script, res_position, res_rad, res_ges = self.speech(subscribe_data)
         if res_position:
             res_nav = get_point(name=res_position, points=self.points)
             self.current_pos = res_position
         elif res_rad:
             res_nav = get_point(name=self.current_pos, points=self.points, rad=res_rad)
-            self.get_logger().info(f"CURRENT_POS:{self.current_pos}, RES_NAV:{res_nav}")
         else:
             res_nav = None
+        if self.current_ges != "front":
+            if not res_ges:
+                res_ges = "front"
         self.current_pos = res_position if res_position else self.current_pos
         self.get_logger().info(f"SCRIPT:{res_script}, POSITION:{res_nav}, RAD:{res_rad}, GESTURE:{res_ges}")
         
         # send text data (robot speaking)
-        self.um.insert({"text":res_script})
+        # self.um.insert({"text":res_script})
         
         # send position data (robot moving)
-        if res_nav:
-            self.nm.insert({"navigation":res_nav})
-        if res_ges:
-            self.ges.insert({"gesture":res_ges})
+        # if res_nav:
+        #     self.nm.insert({"navigation":res_nav})
+        # if res_ges:
+        #     self.ges.insert({"gesture":res_ges})
+        #     self.current_ges = res_ges
         
     def speech_no_feedback(self) -> Tuple[str, Optional[list], Optional[float], Optional[str]]:
         # put the command of repeat or skip
@@ -85,7 +89,7 @@ class Exp(Node):
         current_ges = self.script[self.index]["gesture"] if self.script[self.index]["gesture"] else None
         return current_script, current_position, current_rad, current_ges
 
-    def speech(self, data) -> Tuple[str, list, Optional[float], Optional[str]]:
+    def speech(self, data) -> Tuple[str, Optional[list], Optional[float], Optional[str]]:
         # put the command of repeat or skip
         cmd = input("Input your command (1: repeat, 2:skip, enter:none):")
 
@@ -124,11 +128,11 @@ class Exp(Node):
     def feedback(self, data) -> str:
         # 調整済み
         openai.api_key = os.environ.get("OPENAI_API_KEY")
-        user_speech = data["words"]
-        predicted_speech = self.script[self.index + 1]["utterance"]
+        user_speech = data["words"].replace(",", "").replace(".", "").lower()
+        predicted_speech = self.script[self.index + 1]["utterance"].replace(",", "").replace(".", "").lower()
         correct_examples = self.script[self.index + 1]["ex"]["correct"]
         correct_examples.append(predicted_speech)
-        current_script = self.script[self.index]
+        examples = [item.replace(",", "").replace(".", "").replace("!", "").lower() for item in correct_examples]
         params = [
         {"role": "system", "content": "You are a peer of the user who is an English learner talking with you."},
         {
@@ -137,7 +141,7 @@ class Exp(Node):
         },
         {
             "role": "system",
-            "content": f"Here are some sample answer,  {correct_examples}",
+            "content": f"Here are a predicted speech, {predicted_speech}, and some sample answer,  {examples}",
         },
         {
             "role": "system",
@@ -155,15 +159,15 @@ class Exp(Node):
         params.append(
             {
                 "role": "user",
-                "content": f"The robot said {current_script},  and The user said {user_speech}",
+                "content": f"The user said {user_speech}",
             }
         )
         response = openai.ChatCompletion.create(model="gpt-4o-mini", messages=params)
-        message = response.choices[0].message.content
-        if message.lower() == "correct":
+        message = response.choices[0].message.content.replace(",", "").replace(".", "").replace("!", "").lower()
+        if message == "correct":
             self.correct = True
             return "correct"
-        elif message == user_speech:
+        elif message == user_speech or user_speech in message:
             return "correct"
         else:
             customary_epithet = ["That means, ", "You should say, "]
@@ -182,7 +186,7 @@ def main(args=None):
     nm = NavigationManager("i1-brain.ad180.riken.go.jp", 9010, "indy1")
     ges = GestureManager("i1-brain.ad180.riken.go.jp", 9010, "indy1")
     # robot speaks first script before user speaking
-    um.insert({"text": script[0]["utterance"]})
+    # um.insert({"text": script[0]["utterance"]})
     print(({"text": script[0]["utterance"]}))
 
     rclpy.init(args=args)

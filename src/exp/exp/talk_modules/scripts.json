@@ -9,17 +9,12 @@
     },
     {
       "speaker": "learner",
-      "utterance": "Hello! I'm oo. Nice to meet you too!",
+      "utterance": "Hello! I'm [name]. Nice to meet you too!",
       "ex": {
         "correct": [
-          "Hello! I'm [name]. Nice to meet you too!",
-          "Hi! My name is [name]. Nice to meet you too!",
-          "Hello Indy! I am [name]. Nice to meet you too!"
-        ],
-        "incorrect": [
-          "Hi! What is your name?",
-          "Hello! I'm [name]. Goodbye!",
-          "Nice to meet you."
+          "Hello.",
+          "Nice to meet you too.",
+          "Hello Indy! I am [name]. Nice to meet you too."
         ]
       }
     },
@@ -37,18 +32,13 @@
         "correct": [
           "Sure! What do you need help with?",
           "Yes, I can help. What do you need?",
-          "Of course! How can I assist?"
-        ],
-        "incorrect": [
-          "No, I can't help you.",
-          "I don't know.",
-          "Maybe, what do you want?"
+          "Of course!"
         ]
       }
     },
     {
       "speaker": "robot",
-      "utterance": "Actually, I have to set the table by 10 minutes. So firstly, can you take 4 placemats on the top of the kitchen counter.?",
+      "utterance": "Actually, I have to set the table by ten minutes. So firstly, can you take four place mats on the top of the kitchen counter?",
       "position": "Kitchen",
       "rad": "",
       "gesture": ""
@@ -61,8 +51,7 @@
           "Got it, thanks!",
           "Okay, I'll get them.",
           "Understood, I'll take them."
-        ],
-        "incorrect": ["What?", "I don't understand.", "No."]
+        ]
       }
     },
     {
@@ -76,13 +65,12 @@
       "speaker": "learner",
       "utterance": "Yes.",
       "ex": {
-        "correct": ["Sure.", "Yes, I can.", "Of course."],
-        "incorrect": ["No.", "I don't want to.", "Maybe later."]
+        "correct": ["Sure.", "Yes, I can.", "Of course."]
       }
     },
     {
       "speaker": "robot",
-      "utterance": "Good. Next, can you take 4 plates? They are probably on the shelf.",
+      "utterance": "Good. Next, can you take four plates? They are probably on the shelf.",
       "position": "Shelf",
       "rad": "",
       "gesture": ""
@@ -95,8 +83,7 @@
           "Okay, I'll get them.",
           "Yes, I will.",
           "Sure, I'll take them."
-        ],
-        "incorrect": ["No.", "I can't do that.", "Where are the plates?"]
+        ]
       }
     },
     {
@@ -114,11 +101,6 @@
           "I think they should go in the center of each placemat.",
           "They should be placed in the middle of each placemat.",
           "In the center of each placemat."
-        ],
-        "incorrect": [
-          "I don't know.",
-          "Anywhere is fine.",
-          "Wherever you want."
         ]
       }
     },
@@ -152,11 +134,6 @@
           "We need 4 forks and 4 knives.",
           "I believe we need 4 forks and 4 knives.",
           "4 forks and 4 knives should be enough."
-        ],
-        "incorrect": [
-          "I don't know.",
-          "We don't need any cutleries.",
-          "Anything is fine."
         ]
       }
     },
@@ -177,7 +154,7 @@
     },
     {
       "speaker": "robot",
-      "utterance": "So next, can you take 4 glasses on the top of the kitchen counter?",
+      "utterance": "So next, can you take four glasses on the top of the kitchen counter?",
       "position": "Kitchen",
       "rad": "",
       "gesture": ""
@@ -230,7 +207,7 @@
     },
     {
       "speaker": "robot",
-      "utterance": "Then, can you take 4 napkins in the shelf?",
+      "utterance": "Then, can you take four napkins in the shelf?",
       "position": "Shelf",
       "rad": "",
       "gesture": ""
